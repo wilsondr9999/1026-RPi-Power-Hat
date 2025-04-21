@@ -1145,7 +1145,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "DW_Mechanical:[Fan] SameSky CFM-2507CF-050-089"
+		(symbol "DW_Mechanical:[Fan] SameSky CFM-2510B-070-140"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1157,7 +1157,7 @@
 					)
 				)
 			)
-			(property "Value" "CFM-2507CF-050-089"
+			(property "Value" "CFM-2510B-070-140"
 				(at 0 10.16 0)
 				(effects
 					(font
@@ -1165,7 +1165,7 @@
 					)
 				)
 			)
-			(property "Footprint" "DW_Mechanical:[Fan] SameSky CFM-2507CF-050-089"
+			(property "Footprint" "DW_Mechanical:[Fan] SameSky CFM-2510B-070-140"
 				(at 0 -29.21 0)
 				(effects
 					(font
@@ -1174,7 +1174,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://www.sameskydevices.com/product/resource/cfm-25cf.pdf"
+			(property "Datasheet" "https://www.sameskydevices.com/product/resource/cfm-25b.pdf"
 				(at 0 -11.43 0)
 				(effects
 					(font
@@ -1183,7 +1183,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "DC Fans dc axial fan, 25 mm square, 7 mm, 5 Vdc, omniCOOL, 5000 RPM, 1.10 CFM"
+			(property "Description" "DC Fans dc axial fan, 25 mm square, 10 mm, 5 Vdc, omniCOOL, 5000 RPM, 1.35 CFM"
 				(at 0 -24.13 0)
 				(effects
 					(font
@@ -1192,7 +1192,7 @@
 					(hide yes)
 				)
 			)
-			(property "Height" "7"
+			(property "Height" "10"
 				(at 0 -13.97 0)
 				(effects
 					(font
@@ -1210,7 +1210,7 @@
 					(hide yes)
 				)
 			)
-			(property "Manufacturer_Part_Number" "CFM-2507CF-050-089"
+			(property "Manufacturer_Part_Number" "CFM-2510B-070-140"
 				(at 0 -26.67 0)
 				(effects
 					(font
@@ -1219,7 +1219,7 @@
 					(hide yes)
 				)
 			)
-			(property "Mouser Part Number" "179-CFM2507CF050089"
+			(property "Mouser Part Number" "490-CFM2510B-070-140"
 				(at 0 -21.59 0)
 				(effects
 					(font
@@ -1228,7 +1228,7 @@
 					(hide yes)
 				)
 			)
-			(property "Mouser Price/Stock" "https://www.mouser.com/ProductDetail/Same-Sky/CFM-2507CF-050-089?qs=ulEaXIWI0c9ptEGd6uhKEA%3D%3D"
+			(property "Mouser Price/Stock" "https://www.mouser.com/ProductDetail/Same-Sky/CFM-2510B-070-140?qs=GedFDFLaBXHD1VXBjs5CMA%3D%3D"
 				(at 0 -19.05 0)
 				(effects
 					(font
@@ -1246,7 +1246,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "[Fan] SameSky CFM-2507CF-050-089_0_1"
+			(symbol "[Fan] SameSky CFM-2510B-070-140_0_1"
 				(polyline
 					(pts
 						(xy -16.002 0.508) (xy -8.89 0.508)
@@ -1272,7 +1272,7 @@
 					)
 				)
 			)
-			(symbol "[Fan] SameSky CFM-2507CF-050-089_1_1"
+			(symbol "[Fan] SameSky CFM-2510B-070-140_1_1"
 				(rectangle
 					(start -16.764 0.508)
 					(end -15.9004 0.254)
@@ -1333,7 +1333,7 @@
 						)
 					)
 				)
-				(text "25x25x7 Axial\nFan, 5V"
+				(text "25x25x10 Axial\nFan, 5V"
 					(at 0 0 0)
 					(effects
 						(font
@@ -3075,7 +3075,7 @@
 				(hide yes)
 			)
 		)
-		(property "Spec" ""
+		(property "Spec" "CAT24C32HU4I-GT3"
 			(at 96.52 101.6 0)
 			(effects
 				(font
@@ -3376,7 +3376,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "aa5d53d2-199c-41f6-a034-f7566a461f29")
 		(property "Reference" "J2"
 			(at 155.702 50.8578 0)
@@ -3445,7 +3444,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" ""
+		(property "Mouser Part Number" "306-B2BXHALFSNP"
 			(at 147.32 53.34 0)
 			(effects
 				(font
@@ -3470,6 +3469,22 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Spec" "JST-XH-2"
+			(at 160.655 55.245 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.com/ProductDetail/JST-Commercial/B2B-XH-ALFSN?qs=cdbOS8ANM9DdcSn9qRmfCw%3D%3D"
+			(at 147.32 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -3915,7 +3930,7 @@
 		)
 	)
 	(symbol
-		(lib_id "DW_Mechanical:[Fan] SameSky CFM-2507CF-050-089")
+		(lib_id "DW_Mechanical:[Fan] SameSky CFM-2510B-070-140")
 		(at 209.55 50.8 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3933,7 +3948,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "CFM-2507CF-050-089"
+		(property "Value" "CFM-2510B-070-140"
 			(at 219.0749 52.0121 0)
 			(effects
 				(font
@@ -3942,7 +3957,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "DW_Mechanical:[Fan] SameSky CFM-2507CF-050-089"
+		(property "Footprint" "DW_Mechanical:[Fan] SameSky CFM-2510B-070-140"
 			(at 209.55 80.01 0)
 			(effects
 				(font
@@ -3951,7 +3966,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.sameskydevices.com/product/resource/cfm-25cf.pdf"
+		(property "Datasheet" "https://www.sameskydevices.com/product/resource/cfm-25b.pdf"
 			(at 209.55 62.23 0)
 			(effects
 				(font
@@ -3960,7 +3975,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "DC Fans dc axial fan, 25 mm square, 7 mm, 5 Vdc, omniCOOL, 5000 RPM, 1.10 CFM"
+		(property "Description" "DC Fans dc axial fan, 25 mm square, 10 mm, 5 Vdc, omniCOOL, 5000 RPM, 1.35 CFM"
 			(at 209.55 74.93 0)
 			(effects
 				(font
@@ -3969,7 +3984,7 @@
 				(hide yes)
 			)
 		)
-		(property "Height" "7"
+		(property "Height" "10"
 			(at 209.55 64.77 0)
 			(effects
 				(font
@@ -3987,7 +4002,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "CFM-2507CF-050-089"
+		(property "Manufacturer_Part_Number" "CFM-2510B-070-140"
 			(at 209.55 77.47 0)
 			(effects
 				(font
@@ -3996,7 +4011,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "179-CFM2507CF050089"
+		(property "Mouser Part Number" "490-CFM2510B-070-140"
 			(at 209.55 72.39 0)
 			(effects
 				(font
@@ -4005,13 +4020,21 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Price/Stock" "https://www.mouser.com/ProductDetail/Same-Sky/CFM-2507CF-050-089?qs=ulEaXIWI0c9ptEGd6uhKEA%3D%3D"
+		(property "Mouser Price/Stock" "https://www.mouser.com/ProductDetail/Same-Sky/CFM-2510B-070-140?qs=GedFDFLaBXHD1VXBjs5CMA%3D%3D"
 			(at 209.55 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Spec" "5V 7000RPM 25mm"
+			(at 209.55 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(instances

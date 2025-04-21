@@ -1,4 +1,4 @@
-25119557150843204
+25121302350428247
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -55604,6 +55604,13 @@ DW_Mechanical
 [Fan] SameSky CFM-2507CF-050-089
 DC Fans dc axial fan, 25 mm square, 7 mm, 5 Vdc, omniCOOL, 5000 RPM, 1.10 CFM
 DC Fans dc axial fan, 25 mm square, 7 mm, 5 Vdc, omniCOOL, 5000 RPM, 1.10 CFM
+0
+0
+0
+DW_Mechanical
+[Fan] SameSky CFM-2510B-070-140
+DC Fans dc axial fan, 25 mm square, 10 mm, 5 Vdc, omniCOOL, 5000 RPM, 1.35 CFM
+DC Fans dc axial fan, 25 mm square, 10 mm, 5 Vdc, omniCOOL, 5000 RPM, 1.35 CFM
 0
 0
 0

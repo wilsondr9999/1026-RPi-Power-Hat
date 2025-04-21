@@ -4730,7 +4730,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" ""
+		(property "Mouser Part Number" "306-S2BXHA1LFSN"
 			(at 45.72 53.34 0)
 			(effects
 				(font
@@ -4748,7 +4748,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "B2B-XH-A(LF)(SN)"
+		(property "Manufacturer_Part_Number" "S2B-XH-A-1"
 			(at 45.72 74.93 0)
 			(effects
 				(font
@@ -4764,6 +4764,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.com/ProductDetail/JST-Commercial/S2B-XH-A-1LFSN?qs=QpmGXVUTftHhNeC%252BPQWeTw%3D%3D"
+			(at 45.72 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"

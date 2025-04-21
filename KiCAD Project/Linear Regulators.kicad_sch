@@ -1986,7 +1986,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.vishay.com/doc?20035"
+		(property "Datasheet" "https://www.vishay.com/docs/28773/crcwce3.pdf"
 			(at 82.55 87.63 0)
 			(effects
 				(font
@@ -2004,7 +2004,7 @@
 				(hide yes)
 			)
 		)
-		(property "Height" "0.40"
+		(property "Height" "0.35"
 			(at 82.55 87.63 0)
 			(effects
 				(font
@@ -2300,7 +2300,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.vishay.com/doc?20035"
+		(property "Datasheet" "https://www.vishay.com/docs/28773/crcwce3.pdf"
 			(at 82.55 71.12 0)
 			(effects
 				(font
@@ -2318,7 +2318,7 @@
 				(hide yes)
 			)
 		)
-		(property "Height" "0.40"
+		(property "Height" "0.35"
 			(at 82.55 71.12 0)
 			(effects
 				(font

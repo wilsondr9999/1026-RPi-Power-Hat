@@ -7908,7 +7908,7 @@
 				(hide yes)
 			)
 		)
-		(property "Spec" ""
+		(property "Spec" "USB Connectors USB A Skt, TH, GF, USB-A 2.0"
 			(at 233.68 68.58 0)
 			(effects
 				(font
@@ -8311,6 +8311,14 @@
 				)
 				(justify left top)
 				(hide yes)
+			)
+		)
+		(property "Spec" "TUSB4041IPAPR"
+			(at 63.5 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -12946,7 +12954,7 @@
 				(hide yes)
 			)
 		)
-		(property "Spec" ""
+		(property "Spec" "USB Connectors USB A Skt, TH, GF, USB-A 2.0"
 			(at 233.68 132.08 0)
 			(effects
 				(font

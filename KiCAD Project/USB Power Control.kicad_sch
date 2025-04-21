@@ -3430,6 +3430,14 @@
 				(hide yes)
 			)
 		)
+		(property "Spec" "TPS2561DRCR"
+			(at 96.52 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "10"
 			(uuid "20849a5f-ae96-4f34-9a86-2a1fba4de69f")
 		)
@@ -5860,6 +5868,14 @@
 				(hide yes)
 			)
 		)
+		(property "Spec" "TPS2561DRCR"
+			(at 96.52 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "10"
 			(uuid "5c480020-19ec-4e1b-8a48-f427c2ac9238")
 		)
@@ -6579,6 +6595,14 @@
 				)
 				(justify left top)
 				(hide yes)
+			)
+		)
+		(property "Spec" "ECS-2520MV-240-BL-TR"
+			(at 96.52 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "3"

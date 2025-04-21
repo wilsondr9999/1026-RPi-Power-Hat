@@ -2,7 +2,7 @@
 	(version 20250114)
 	(generator "eeschema")
 	(generator_version "9.0")
-	(uuid "0b1da6a0-efca-4fde-a3cd-9a3473afa42f")
+	(uuid "344d7c2a-4724-4e54-b822-a865b46fb2af")
 	(paper "USLetter")
 	(title_block
 		(title "1026 RPi Power Hat")
@@ -1474,6 +1474,14 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser Price/Stock" "https://www.mouser.com/ProductDetail/STMicroelectronics/USBLC6-2P6?qs=6ARB0lp6jlViGcbUSvj1Mw%3D%3D"
+			(at 127 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "b5e4580a-8d67-43b0-a2f4-4b51f8b5175a")
 		)
@@ -1611,6 +1619,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.com/ProductDetail/STMicroelectronics/USBLC6-2P6?qs=6ARB0lp6jlViGcbUSvj1Mw%3D%3D"
+			(at 127 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -1752,6 +1768,14 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser Price/Stock" "https://www.mouser.com/ProductDetail/STMicroelectronics/USBLC6-2P6?qs=6ARB0lp6jlViGcbUSvj1Mw%3D%3D"
+			(at 127 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "f65347bc-1b36-4a17-8ccd-a189f1e6afac")
 		)
@@ -1891,6 +1915,14 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser Price/Stock" "https://www.mouser.com/ProductDetail/STMicroelectronics/USBLC6-2P6?qs=6ARB0lp6jlViGcbUSvj1Mw%3D%3D"
+			(at 127 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "c425700a-4184-4a8c-8b5b-eb04402d0c4a")
 		)
@@ -2028,6 +2060,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.com/ProductDetail/STMicroelectronics/USBLC6-2P6?qs=6ARB0lp6jlViGcbUSvj1Mw%3D%3D"
+			(at 127 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
