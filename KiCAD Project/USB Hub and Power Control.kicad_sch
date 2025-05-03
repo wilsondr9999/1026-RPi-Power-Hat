@@ -7,7 +7,7 @@
 	(title_block
 		(title "1026 RPi Power Hat")
 		(date "2025-04-11")
-		(rev "1")
+		(rev "1.0.0 RC3")
 		(company "Dan Wilson")
 		(comment 1 "Copyright © 2025 Dan Wilson")
 		(comment 4 "USB 2.0 Hub")
@@ -3020,6 +3020,12 @@
 		(uuid "784c9b0b-1a8d-43af-a62d-f5d77c7c01c8")
 	)
 	(junction
+		(at 43.18 160.02)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "786c9dee-cc2d-43be-baac-ce1317f3d3a6")
+	)
+	(junction
 		(at 81.28 41.91)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5667,6 +5673,16 @@
 	)
 	(wire
 		(pts
+			(xy 43.18 160.02) (xy 50.8 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dd032fef-b027-44d9-9f95-4dc88a67e1b6")
+	)
+	(wire
+		(pts
 			(xy 55.88 96.52) (xy 63.5 96.52)
 		)
 		(stroke
@@ -6354,6 +6370,17 @@
 			(justify left bottom)
 		)
 		(uuid "faadef5b-f60d-4cb3-8b31-6dd19b3f12d1")
+	)
+	(hierarchical_label "USB_Vbus"
+		(shape output)
+		(at 50.8 160.02 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "08eeec33-9dfc-46ba-8417-cc0b49371f08")
 	)
 	(hierarchical_label "USB_DS3_UF+"
 		(shape input)
@@ -8319,6 +8346,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"

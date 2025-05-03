@@ -2,12 +2,12 @@
 	(version 20250114)
 	(generator "eeschema")
 	(generator_version "9.0")
-	(uuid "344d7c2a-4724-4e54-b822-a865b46fb2af")
+	(uuid "b8738892-e395-44cb-ae92-bbea99cb70ac")
 	(paper "USLetter")
 	(title_block
 		(title "1026 RPi Power Hat")
 		(date "2025-04-11")
-		(rev "1")
+		(rev "1.0.0 RC3")
 		(company "Dan Wilson")
 		(comment 1 "Copyright © 2025 Dan Wilson")
 		(comment 4 "USB ESD Protection")
@@ -1043,7 +1043,7 @@
 		)
 		(uuid "03d1e63a-5a64-4a21-afc4-a2497f731a63")
 	)
-	(hierarchical_label "5V"
+	(hierarchical_label "USB_Vbus"
 		(shape input)
 		(at 177.8 45.72 0)
 		(effects
@@ -1480,6 +1480,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -1627,6 +1628,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -1774,6 +1776,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -1921,6 +1924,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -2068,6 +2072,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"

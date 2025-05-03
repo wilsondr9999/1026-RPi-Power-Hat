@@ -7,7 +7,7 @@
 	(title_block
 		(title "1026 RPi Power Hat")
 		(date "2025-04-11")
-		(rev "1")
+		(rev "1.0.0 RC3")
 		(company "Dan Wilson")
 		(comment 1 "Copyright © 2025 Dan Wilson")
 		(comment 4 "Root Sheet")
@@ -26,10 +26,10 @@
 		(uuid "57283397-f1d5-45c3-be84-7e79bed212d6")
 	)
 	(junction
-		(at 88.9 111.76)
+		(at 91.44 114.3)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "9410819e-87c3-4dda-9b31-bb09f7137b01")
+		(uuid "83980bed-00c8-49b6-b4fb-97033c63710e")
 	)
 	(junction
 		(at 189.23 142.24)
@@ -54,12 +54,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "cb85b116-8ec2-4b9c-94ea-e9b0e5fd70d5")
-	)
-	(junction
-		(at 91.44 116.84)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ec89ec95-f7e1-4c70-b74d-b6ccb16874a0")
 	)
 	(wire
 		(pts
@@ -113,17 +107,7 @@
 	)
 	(wire
 		(pts
-			(xy 59.69 135.89) (xy 88.9 135.89)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "094935bc-fa3a-4a00-bda8-643913af8172")
-	)
-	(wire
-		(pts
-			(xy 76.2 116.84) (xy 91.44 116.84)
+			(xy 76.2 114.3) (xy 91.44 114.3)
 		)
 		(stroke
 			(width 0)
@@ -363,16 +347,6 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 111.76) (xy 88.9 135.89)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4407b7c4-ae89-4221-8a4c-2e56f46d88a3")
-	)
-	(wire
-		(pts
 			(xy 76.2 182.88) (xy 138.43 182.88)
 		)
 		(stroke
@@ -563,7 +537,7 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 114.3) (xy 101.6 114.3)
+			(xy 76.2 111.76) (xy 101.6 111.76)
 		)
 		(stroke
 			(width 0)
@@ -753,7 +727,7 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 78.74) (xy 91.44 116.84)
+			(xy 91.44 78.74) (xy 91.44 114.3)
 		)
 		(stroke
 			(width 0)
@@ -843,13 +817,23 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 111.76) (xy 88.9 111.76)
+			(xy 76.2 109.22) (xy 88.9 109.22)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "bb05603e-c1d0-473a-8a58-31745a54a0c9")
+	)
+	(wire
+		(pts
+			(xy 88.9 137.16) (xy 59.69 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bd2039ef-d780-45db-8e61-828b5be99c80")
 	)
 	(wire
 		(pts
@@ -913,13 +897,13 @@
 	)
 	(wire
 		(pts
-			(xy 59.69 139.7) (xy 59.69 135.89)
+			(xy 88.9 118.11) (xy 88.9 137.16)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ce8c104a-0da7-4b58-8fe8-adc8aa1f4d2d")
+		(uuid "d1b492fb-3c92-43b9-ae9a-d1ab1017c4da")
 	)
 	(wire
 		(pts
@@ -983,13 +967,23 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 116.84) (xy 101.6 116.84)
+			(xy 91.44 114.3) (xy 101.6 114.3)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "dbf660e4-c9db-4984-b326-a20912a28de5")
+	)
+	(wire
+		(pts
+			(xy 59.69 137.16) (xy 59.69 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "df7513e3-d306-4f8c-9d8a-493fe1cbe39d")
 	)
 	(wire
 		(pts
@@ -1023,7 +1017,7 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 76.2) (xy 88.9 111.76)
+			(xy 88.9 76.2) (xy 88.9 109.22)
 		)
 		(stroke
 			(width 0)
@@ -1050,6 +1044,16 @@
 			(type default)
 		)
 		(uuid "f4c11cad-445c-4a8b-a6d6-ddea2e2b2800")
+	)
+	(wire
+		(pts
+			(xy 101.6 118.11) (xy 88.9 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f8c73a0c-fd4b-4d02-9b4d-6a5f40c031eb")
 	)
 	(wire
 		(pts
@@ -1362,7 +1366,7 @@
 			)
 		)
 		(pin "1V1" input
-			(at 101.6 114.3 180)
+			(at 101.6 111.76 180)
 			(uuid "59779515-597f-4163-97c4-7457f9865dce")
 			(effects
 				(font
@@ -1372,7 +1376,7 @@
 			)
 		)
 		(pin "3V3" input
-			(at 101.6 116.84 180)
+			(at 101.6 114.3 180)
 			(uuid "9ff4f377-8822-49e8-87da-94750f7e7e84")
 			(effects
 				(font
@@ -1711,6 +1715,16 @@
 				(justify left)
 			)
 		)
+		(pin "USB_Vbus" output
+			(at 101.6 118.11 180)
+			(uuid "b7ee18e1-b8b3-4218-83cb-f5387527be79")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 		(instances
 			(project "1026 RPi Power Hat"
 				(path "/0e50632e-8a8b-4b7f-ac56-99c7667bb88a"
@@ -1758,7 +1772,7 @@
 			)
 		)
 		(pin "5V" input
-			(at 76.2 111.76 0)
+			(at 76.2 109.22 0)
 			(uuid "37968602-a0f9-4d33-b439-babf0832dc0b")
 			(effects
 				(font
@@ -1768,7 +1782,7 @@
 			)
 		)
 		(pin "1V1" output
-			(at 76.2 114.3 0)
+			(at 76.2 111.76 0)
 			(uuid "a05c7962-9b7f-4ca5-8a28-a4f28ac9dac2")
 			(effects
 				(font
@@ -1778,7 +1792,7 @@
 			)
 		)
 		(pin "3V3" output
-			(at 76.2 116.84 0)
+			(at 76.2 114.3 0)
 			(uuid "9eab3982-9d32-4b2e-a284-217e45a597a4")
 			(effects
 				(font
@@ -2021,16 +2035,6 @@
 				(hide yes)
 			)
 		)
-		(pin "5V" input
-			(at 59.69 139.7 90)
-			(uuid "83c5151e-791c-4aa2-8ed3-57c56b8b8ded")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
 		(pin "USB_DS1+" input
 			(at 76.2 157.48 0)
 			(uuid "9db45f3d-c7b9-4e47-9291-a4431c71c11e")
@@ -2269,6 +2273,16 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+		(pin "USB_Vbus" input
+			(at 59.69 139.7 90)
+			(uuid "59cd0b59-56ee-460c-9e14-26dac9bd1b1c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances

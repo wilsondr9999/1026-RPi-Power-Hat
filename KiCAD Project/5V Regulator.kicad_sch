@@ -7,7 +7,7 @@
 	(title_block
 		(title "1026 RPi Power Hat")
 		(date "2025-04-11")
-		(rev "1")
+		(rev "1.0.0 RC3")
 		(company "Dan Wilson")
 		(comment 1 "Copyright © 2025 Dan Wilson")
 		(comment 4 "5V Regulator")
@@ -4729,7 +4729,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "GRM0225C1C100FA03L"
+		(property "Value" "VJ0402A100GXJCW1BC"
 			(at 192.659 99.1179 0)
 			(effects
 				(font
@@ -4748,7 +4748,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.com/datasheet/2/281/GRM0225C1C100FA03_01A-1978859.pdf"
+		(property "Datasheet" "https://www.vishay.com/doc?28548"
 			(at 195.58 100.33 0)
 			(effects
 				(font
@@ -4766,7 +4766,7 @@
 				(hide yes)
 			)
 		)
-		(property "Height" "0.25"
+		(property "Height" "0.5"
 			(at 195.58 100.33 0)
 			(effects
 				(font
@@ -4775,7 +4775,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Name" "Murata"
+		(property "Manufacturer_Name" "Vishay"
 			(at 195.58 100.33 0)
 			(effects
 				(font
@@ -4784,7 +4784,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "GRM0225C1C100FA03L"
+		(property "Manufacturer_Part_Number" "VJ0402A100GXJCW1BC"
 			(at 195.58 100.33 0)
 			(effects
 				(font
@@ -4793,7 +4793,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "81-GRM0225C1C100FA03"
+		(property "Mouser Part Number" "77-VJ0402A100GXJCBC"
 			(at 195.58 100.33 0)
 			(effects
 				(font
@@ -4802,7 +4802,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Price/Stock" "https://www.mouser.com/ProductDetail/Murata-Electronics/GRM0225C1C100FA03L?qs=rrS6PyfT74dMR%2FKublCCEA%3D%3D"
+		(property "Mouser Price/Stock" "https://www.mouser.com/ProductDetail/77-VJ0402A100GXJCBC"
 			(at 195.58 100.33 0)
 			(effects
 				(font
