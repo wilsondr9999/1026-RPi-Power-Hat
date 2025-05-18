@@ -3,15 +3,15 @@
     "GenerationSoftware": {
       "Vendor": "KiCad",
       "Application": "Pcbnew",
-      "Version": "9.0.0"
+      "Version": "9.0.2"
     },
-    "CreationDate": "2025-04-21T08:49:54-05:00"
+    "CreationDate": "2025-05-18T12:34:57-05:00"
   },
   "GeneralSpecs": {
     "ProjectId": {
       "Name": "1026 RPi Power Hat",
       "GUID": "31303236-2052-4506-9920-506f77657220",
-      "Revision": "1"
+      "Revision": "1.0.0"
     },
     "Size": {
       "X": 85.1,

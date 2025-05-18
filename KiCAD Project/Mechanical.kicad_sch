@@ -6,8 +6,8 @@
 	(paper "USLetter")
 	(title_block
 		(title "1026 RPi Power Hat")
-		(date "2025-04-11")
-		(rev "1.0.0 RC3")
+		(date "2025-05-18")
+		(rev "1.0.0")
 		(company "Dan Wilson")
 		(comment 1 "Copyright © 2025 Dan Wilson")
 	)
@@ -710,7 +710,7 @@
 			(pin_names
 				(offset 1.016)
 			)
-			(exclude_from_sim yes)
+			(exclude_from_sim no)
 			(in_bom no)
 			(on_board yes)
 			(property "Reference" "H"
@@ -856,80 +856,16 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 106.68 96.52 0)
+		(at 101.6 88.9 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "17b6fc49-b287-4dbd-94e8-89726767ec09")
-		(property "Reference" "H2"
-			(at 109.22 95.3078 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MountingHole"
-			(at 109.22 97.7321 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "DW_Mechanical:[MH] MountingHole_2.7mm_M2.5_Pad"
-			(at 106.68 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 106.68 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Mounting Hole without connection"
-			(at 106.68 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(instances
-			(project "1026 RPi Power Hat"
-				(path "/0e50632e-8a8b-4b7f-ac56-99c7667bb88a/11547498-585a-4b65-8383-0a98326c007f"
-					(reference "H2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Mechanical:MountingHole")
-		(at 106.68 91.44 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "22352447-5441-4dfd-b2bf-ced1f1cfee07")
+		(uuid "481fbe12-068f-41f5-b5f0-1ce763048543")
 		(property "Reference" "H1"
-			(at 109.22 90.2278 0)
+			(at 104.14 87.6878 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -938,7 +874,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 109.22 92.6521 0)
+			(at 104.14 90.1121 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -946,8 +882,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "DW_Mechanical:[MH] MountingHole_2.7mm_M2.5_Pad_StencilRegHole"
-			(at 106.68 91.44 0)
+		(property "Footprint" "DW_Mechanical:[MH] MountingHole_2.7mm_M2.5"
+			(at 101.6 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -956,7 +892,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 106.68 91.44 0)
+			(at 101.6 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -965,7 +901,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 106.68 91.44 0)
+			(at 101.6 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1047,35 +983,17 @@
 		)
 	)
 	(symbol
-		(lib_id "Mechanical:MountingHole")
-		(at 106.68 101.6 0)
+		(lib_id "DW_Mechanical:OSHW_Logo")
+		(at 165.1 101.6 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "58d54709-d1ff-47c7-99e5-c938d7353e61")
-		(property "Reference" "H3"
-			(at 109.22 100.3878 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MountingHole"
-			(at 109.22 102.8121 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "DW_Mechanical:[MH] MountingHole_2.7mm_M2.5_Pad"
-			(at 106.68 101.6 0)
+		(uuid "4f606783-829e-41ca-b451-daa541ded053")
+		(property "Reference" "G2"
+			(at 165.1 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1083,8 +1001,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 106.68 101.6 0)
+		(property "Value" "OSHW_Logo"
+			(at 165.1 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1092,8 +1010,26 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Mounting Hole without connection"
-			(at 106.68 101.6 0)
+		(property "Footprint" "DW_Mechanical:OSHW_Logo"
+			(at 165.1 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 165.1 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Open Source Hardware Logo 8 mm"
+			(at 165.1 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1104,7 +1040,7 @@
 		(instances
 			(project "1026 RPi Power Hat"
 				(path "/0e50632e-8a8b-4b7f-ac56-99c7667bb88a/11547498-585a-4b65-8383-0a98326c007f"
-					(reference "H3")
+					(reference "G2")
 					(unit 1)
 				)
 			)
@@ -1176,16 +1112,16 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 106.68 106.68 0)
+		(at 101.6 95.25 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "7fcb88ab-81b0-447a-a25a-c1d065b9e093")
-		(property "Reference" "H4"
-			(at 109.22 105.4678 0)
+		(uuid "88641ed3-6e36-4c6a-90df-1a278a37784c")
+		(property "Reference" "H2"
+			(at 104.14 94.0378 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1194,7 +1130,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 109.22 107.8921 0)
+			(at 104.14 96.4621 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1202,8 +1138,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "DW_Mechanical:[MH] MountingHole_2.7mm_M2.5_Pad_StencilRegHole"
-			(at 106.68 106.68 0)
+		(property "Footprint" "DW_Mechanical:[MH] MountingHole_2.7mm_M2.5_StencilRegHole"
+			(at 101.6 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1212,7 +1148,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 106.68 106.68 0)
+			(at 101.6 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1221,7 +1157,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 106.68 106.68 0)
+			(at 101.6 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1232,7 +1168,7 @@
 		(instances
 			(project "1026 RPi Power Hat"
 				(path "/0e50632e-8a8b-4b7f-ac56-99c7667bb88a/11547498-585a-4b65-8383-0a98326c007f"
-					(reference "H4")
+					(reference "H2")
 					(unit 1)
 				)
 			)
@@ -1367,6 +1303,70 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 101.6 107.95 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bf59d67f-42c1-4f7f-a3f6-7a1ccba1a105")
+		(property "Reference" "H4"
+			(at 104.14 106.7378 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 104.14 109.1621 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "DW_Mechanical:[MH] MountingHole_2.7mm_M2.5"
+			(at 101.6 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 101.6 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 101.6 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "1026 RPi Power Hat"
+				(path "/0e50632e-8a8b-4b7f-ac56-99c7667bb88a/11547498-585a-4b65-8383-0a98326c007f"
+					(reference "H4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "DW_Mechanical:Fiducial 1mm-3mm")
 		(at 132.08 107.95 0)
 		(unit 1)
@@ -1425,6 +1425,70 @@
 			(project ""
 				(path "/0e50632e-8a8b-4b7f-ac56-99c7667bb88a/11547498-585a-4b65-8383-0a98326c007f"
 					(reference "FID3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 101.6 101.6 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e886c927-5816-434a-8aa1-c82d212f6e45")
+		(property "Reference" "H3"
+			(at 104.14 100.3878 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 104.14 102.8121 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "DW_Mechanical:[MH] MountingHole_2.7mm_M2.5_StencilRegHole"
+			(at 101.6 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 101.6 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 101.6 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "1026 RPi Power Hat"
+				(path "/0e50632e-8a8b-4b7f-ac56-99c7667bb88a/11547498-585a-4b65-8383-0a98326c007f"
+					(reference "H3")
 					(unit 1)
 				)
 			)
