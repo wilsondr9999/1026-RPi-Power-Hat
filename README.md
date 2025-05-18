@@ -141,21 +141,20 @@ For IDEX models:
 - Octopus Board: Use a USB 2.0 (black plastic) port on the HAT
 - Additional accessories, such as a chamber camera, nozzle camera, or touchscreen: Use a USB 2.0 port (black plastic) on the HAT
 
+Your final installation should look like this:
+
+![](img/Electronics%20Enclosure%20Installed.jpg)
+
 ## Initial Power-Up
 At this point, if everything is connected, you can power on the V-Core4.  The HAT will provide the 5V power to the Pi through the GPIO header.  You should see the green power-on LED lit on the HAT.  If you see the red Fault LED lit up on the HAT, check your input voltage, it must be above 22V for the HAT to power on.  If the voltage checks out OK but you still get a fault LED, this may indicate that you have a short on the HAT PCB.  Re-check all soldered connections.
 
+The fault LED can also indicate an overcurrent condition (more than 20W / 4A used by the Pi + fan + all USB devices).  This should be unlikely, but is something to check.  Remove USB devices one at a time, starting with the accessories that are not part of the RatRig V-Core4 systems and see if the fault light goes out.
+
 ## Preparing the HAT in Linux
-This HAT conforms to the Raspberry Pi HAT+ specification.  The HAT+ specification requires that the HAT contain an EEPROM with information that tells the Raspberry Pi what the HAT is and its capabilities.  We will program this EEPROM in the next steps.
-
-### Transfer Required Files to the Pi
-First, we will transfer the required files to the Raspberry Pi.  There are two files that need to be copied to the Raspberry Pi, they are in the Extras/Linux EEPROM Preparation folder.  The program that you can use to transfer these files from a Windows machine is [WinSCP](https://winscp.net/eng/download.php), available for free.  If you are using a Linux machine to connect to the Pi, scp is available on the command-line.
-
-Using WinSCP, connect to the Raspberry Pi in your V-Core 4, and transfer the files [myhat](Extras/Linux%20EEPROM%20Preparation/myhat.eep) and [rr-vcore4-powerhat](Extras/Linux%20EEPROM%20Preparation/rr-vcore4-powerhat.dtbo) to your Raspberry Pi.  I recommend transferring these into the /home/pi directory.
-
-The default username and password for the Raspberry Pi, if you have prepared it using RatRig's instructions, is "pi" and "raspberry".  If you have changed these, use your own username and password that you have established.
+This HAT conforms to the Raspberry Pi HAT+ specification.  The HAT+ specification requires that the HAT contain an EEPROM with information that tells the Raspberry Pi what the HAT is and its capabilities.  We will program this EEPROM and set up the Raspberry PI to recognize it in the next steps.
 
 ### Establish a Command Session to your Raspberry Pi
-Using an SSH client like Putty, connect to your Raspberry Pi using it's IP address on port 22.  The default username and password is "pi" and "raspberry".
+Using an SSH client like Putty, connect to your Raspberry Pi using it's IP address on port 22.  The default username and password for the Raspberry Pi, if you have prepared it using RatRig's instructions, is "pi" and "raspberry".  If you have changed these, use your own username and password that you have established.
 
 Once in the command terminal, execute the following commands to prepare the EEPROM:
 
@@ -168,4 +167,57 @@ Once in the command terminal, execute the following commands to prepare the EEPR
 ``cmake .
 ``make
 ``make install
-``wget 
+``wget https://github.com/wilsondr9999/1026-RPi-Power-Hat/blob/master/Extras/Linux%20EEPROM%20Preparation/myhat.eep
+``wget https://github.com/wilsondr9999/1026-RPi-Power-Hat/blob/master/Extras/Linux%20EEPROM%20Preparation/rr-vcore4-powerhat.dtbo
+``apt install i2c-tools
+``dtoverlay i2c-gpio i2c_gpio_sda=0 i2c_gpio_scl=1 bus=9
+``i2cdetect -y 9
+	>> The above command should show you a matrix of detected I2C addresses on the GPIO header.  The HAT is supposed to be detected on address 53, and the number 53 should show up in the matrix.  If it does not, check the HAT for soldering problems.  If it does, proceed with flashing the EEPROM:
+``./eepflash.sh -w -t=24c32 -d=9 -a=53 -f=myhat.eep
+	>> Make sure the above command completes successfully and does not issue an error message.
+``cp rr-vcore4-powerhat.dtbo /boot/overlays/
+``sh -c "echo rr-vcore4-powerhat.dtbo >> /boot/config.txt"
+
+Now we can reboot the Pi:
+``reboot
+
+Once the Pi is rebooted, you can verify that the USB hub is detected and functioning.  Connect to a command session again using your SSH client, and issue the following command:
+
+``lsusb
+
+In the device listing, you should see the HAT's USB hub:
+
+``Bus 001 Device 005: ID 0451:8142 Texas Instruments, Inc. TUSB8041 4-Port Hub
+
+You should also be able to see the RatRig printer devices connected:
+
+``Bus 001 Device 006: ID 1d50:614e OpenMoko, Inc. stm32f446xx
+``Bus 001 Device 004: ID 04d8:e72b Microchip Technology, Inc. Beacon RevH
+``Bus 001 Device 003: ID 1d50:614e OpenMoko, Inc. stm32g0b1xx
+``Bus 001 Device 002: ID 2109:3431 VIA Labs, Inc. Hub
+
+You should also see any additional accessory devices you have added, for example:
+
+``Bus 001 Device 008: ID 04d9:8030 Holtek Semiconductor, Inc. BTT-HDMI7
+``Bus 001 Device 007: ID 046d:0825 Logitech, Inc. Webcam C270
+
+## Licensing
+This project is licensed under two separate licenses:
+
+The hardware design is licensed under the CERN Open Hardware License Version 2 - Weakly Reciprocal.  This copyleft license requires that if you use this device in your product or redistribute this device or its derivatives in any way, that you must:
+
+- Provide the end-users with this license and copyright notice.
+- State any changes you have made to the original device, its files, or its documentation.
+- Publish your modifications of the device, its files, and its documentation under the same license.
+- Indicate to the end-user the original source (this GitHub archive) and that your work is a derivative and/or redistribution.
+- The license is "weakly reciprocal" in that it only requires these actions for the modified device itself, not the entire end product that you have incorporated it into.  The rest of the product does not have to follow this license and is not affected by this license.
+
+
+The documentation, images, and instructions are licensed under the Creative Commons Attribution-ShareAlike 4.0 International Public License.  This copyleft license requires that if you use this device in your product or redistribute this device or its derivatives in any way, that you must:
+
+- Provide the end-users with this license and copyright notice.
+- State any changes you have made to the original device, its files, or its documentation.
+- Publish your modifications of the device, its files, and its documentation under the same license.
+- Indicate to the end-user the original source (this GitHub archive) and that your work is a derivative and/or redistribution.
+
+As stated by the licenses, all uses of this project require attribution and require open-source release under the same licenses.
