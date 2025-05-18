@@ -165,7 +165,9 @@ Using an SSH client like [Putty](https://www.putty.org/), connect to your Raspbe
 
 Once in the command terminal, execute the following commands to prepare the EEPROM:
 
-``sudo -i
+```
+sudo -i
+```
 
 The above command will again ask you for the password, the default is "raspberry".
 
