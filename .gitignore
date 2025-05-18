@@ -7,5 +7,4 @@
 # Exclude any directory in the tree labeled .private or Extras
 **/.private/
 **/.obsidian/
-**/Extras/
 **/KiCAD Project/*-backups/
