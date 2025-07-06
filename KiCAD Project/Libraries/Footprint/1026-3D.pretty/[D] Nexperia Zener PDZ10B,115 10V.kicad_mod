@@ -1,0 +1,272 @@
+(footprint "[D] Nexperia Zener PDZ10B,115 10V"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Nexperia, 10V Zener Diode 2% 400 mW SMT 2-Pin SOD-323")
+	(tags "Nexperia, 10V Zener Diode 2% 400 mW SMT 2-Pin SOD-323")
+	(property "Reference" "REF**"
+		(at -2.25 0 270)
+		(layer "F.SilkS")
+		(uuid "6cc76b7c-1a58-478b-be3c-734d1c7fe859")
+		(effects
+			(font
+				(size 0.762 0.762)
+				(thickness 0.1905)
+				(bold yes)
+			)
+		)
+	)
+	(property "Value" "PDZ10B,115"
+		(at 0 3 180)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "5837a2bf-0cb7-4108-adc7-591068b85e5f")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.mouser.com/datasheet/2/916/PDZ_B_SER-1548405.pdf"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0beb8a87-e068-4b82-918a-46009b0cc722")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Rev Power Prot Diode"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3023a733-7f98-41c1-b3bf-c1e41bef0b1f")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Height" "1.1"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7b9c5c57-1f3e-4cfc-a2c5-18189af11c0e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Mouser Part Number" "771-PDZ10B115"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c30fbfa6-dbf1-447d-8939-58f7174e2b76")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Mouser Price/Stock" "https://www.mouser.com/ProductDetail/Nexperia/PDZ10B115?qs=LOCUfHb8d9t6BsAtogB8tA%3D%3D"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "88fbae6f-ebfa-4e93-8845-abd08a393019")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer_Name" "Nexperia"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "060fa762-6f81-43f2-8e11-c42576a0dc00")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer_Part_Number" "PDZ10B,115"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "07003e90-2300-48d4-9dad-1ff92318be88")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Spec" "10V 2% 400mW"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ea3f156f-ebf7-4f8a-b360-5baa5547fdc2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -1 -0.6)
+		(end 0.4 -0.6)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "85c5e367-6d92-42dd-b586-b39b0fcee633")
+	)
+	(fp_line
+		(start -0.4 0.625)
+		(end 0.4 0.625)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "56897118-f654-4616-949d-4d9a13a31160")
+	)
+	(fp_line
+		(start -1.75 -1)
+		(end 1.75 -1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "34f38c0c-626b-419a-91e8-f5ad3c9eb3ff")
+	)
+	(fp_line
+		(start -1.75 1)
+		(end -1.75 -1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "e3ec2b92-1ce6-41e1-af71-5910f1a220e5")
+	)
+	(fp_line
+		(start 1.75 -1)
+		(end 1.75 1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "b85f095d-1739-4b2e-a1c3-3d427e6081ed")
+	)
+	(fp_line
+		(start 1.75 1)
+		(end -1.75 1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "113b0558-fc1e-4b5c-9c62-8f4043963955")
+	)
+	(fp_line
+		(start -0.85 -0.625)
+		(end 0.85 -0.625)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "aa72ef97-fcde-4d1d-be6a-4a487241f7da")
+	)
+	(fp_line
+		(start -0.85 0.625)
+		(end -0.85 -0.625)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "56670fa6-0a01-4900-ada6-96e2df736fa3")
+	)
+	(fp_line
+		(start 0.85 -0.625)
+		(end 0.85 0.625)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "82066fe0-1726-4a0f-9d81-44ad9783dbc7")
+	)
+	(fp_line
+		(start 0.85 0.625)
+		(end -0.85 0.625)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "3a2c98a1-a165-4635-93a0-1c50dcf2e739")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 5 180)
+		(layer "F.Fab")
+		(uuid "9b625da7-a3bb-472e-9c8d-5111507ce784")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -1.1 0 90)
+		(size 0.6 0.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "12f82ec8-5e65-41b5-b1ba-78b047711483")
+	)
+	(pad "2" smd rect
+		(at 1.1 0 90)
+		(size 0.6 0.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "b6c0f0f8-e738-455a-8ecf-6d67bdf72b65")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/Libraries/3D/PDZ10B,115.stp"
+		(offset
+			(xyz -0.7900000096 1.359999994 -0.7200000178)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 0)
+		)
+	)
+)

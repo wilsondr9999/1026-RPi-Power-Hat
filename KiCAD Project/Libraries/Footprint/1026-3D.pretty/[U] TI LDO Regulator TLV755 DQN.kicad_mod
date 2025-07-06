@@ -1,0 +1,479 @@
+(footprint "[U] TI LDO Regulator TLV755 DQN"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "LDO Voltage Regulators 500-mA high-PSRR low -IQ low-dropout")
+	(tags "LDO Voltage Regulators 500-mA high-PSRR low -IQ low-dropout")
+	(property "Reference" "REF**"
+		(at 0 -1.475003 180)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "708ceb19-9485-430b-993d-c9aef022c279")
+		(effects
+			(font
+				(size 0.762 0.762)
+				(thickness 0.1905)
+				(bold yes)
+			)
+		)
+	)
+	(property "Value" "TLV75511PDQNR"
+		(at 0 3.4 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "592e00d2-8097-4558-bd56-d554f619ad33")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.ti.com/lit/gpn/tlv755p"
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "03e6b8d9-0941-481b-b4dd-58671368d761")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "LDO Voltage Regulators 500-mA high-PSRR low -IQ low-dropout"
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "501ea253-d5d8-46c4-8624-20c2cd61a39f")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Height" "0.4"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "df3ae071-47bf-4ea7-9fe9-43dcb70ff4ac")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer_Name" "Texas Instruments"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "bc3093e3-f61f-4424-a3ad-d02b1277f848")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer_Part_Number" "TLV75511PDQNR"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c9a76097-fc90-4cef-a80e-b99f357fb59f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Mouser Part Number" "595-TLV75511PDQNR"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "99c996cb-24ae-4ece-ad37-aa09184798f8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Mouser Price/Stock" "https://www.mouser.com/ProductDetail/Texas-Instruments/TLV75511PDQNR?qs=w%2Fv1CP2dgqp0zobivtVyXQ%3D%3D"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ccfb64b1-3fcd-4be4-960f-f527f6845d2d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Spec" "0.5A 1.1V Output LDO"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "26f5cebb-9512-462b-8314-9444dd9d9ebe")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_poly
+		(pts
+			(xy -0.609999 -0.430002) (xy -0.25 -0.430002) (xy -0.25 -0.399997) (xy -0.429994 -0.220002) (xy -0.609999 -0.220002)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.Mask")
+		(uuid "3b808d9c-1d0e-4c8b-80a3-86b0f98bb24d")
+	)
+	(fp_poly
+		(pts
+			(xy -0.609999 0.430002) (xy -0.609999 0.220002) (xy -0.429994 0.220002) (xy -0.25 0.399997) (xy -0.25 0.430002)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.Mask")
+		(uuid "85fbed49-407a-411c-80b4-a17b0d0da66d")
+	)
+	(fp_poly
+		(pts
+			(xy 0.609999 -0.430002) (xy 0.609999 -0.220002) (xy 0.429994 -0.220002) (xy 0.25 -0.399997) (xy 0.25 -0.430002)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.Mask")
+		(uuid "a06de66e-f49e-482d-b944-f0e67af315a6")
+	)
+	(fp_poly
+		(pts
+			(xy 0.609999 0.430002) (xy 0.25 0.430002) (xy 0.25 0.399997) (xy 0.429994 0.220002) (xy 0.609999 0.220002)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.Mask")
+		(uuid "319bb446-a30a-4c25-a8d5-45c02ed92a6c")
+	)
+	(fp_line
+		(start -0.879681 -0.696199)
+		(end -0.3 -0.696199)
+		(stroke
+			(width 0.1778)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "779edbac-a312-48b3-9e86-c6caac652070")
+	)
+	(fp_line
+		(start -0.879681 -0.1)
+		(end -0.879681 -0.696199)
+		(stroke
+			(width 0.1778)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "26262097-a830-4107-9d6d-25067d9759f0")
+	)
+	(fp_line
+		(start -0.879681 0.696199)
+		(end -0.879681 0.496199)
+		(stroke
+			(width 0.1778)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "9639537e-0bb6-40fc-a1b2-340e0b350f55")
+	)
+	(fp_line
+		(start -0.879681 0.696199)
+		(end -0.679681 0.696199)
+		(stroke
+			(width 0.1778)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "558e4b75-aa6d-4b72-88d7-034c0e80e1a8")
+	)
+	(fp_line
+		(start 0.679681 -0.696199)
+		(end 0.879681 -0.696199)
+		(stroke
+			(width 0.1778)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "dcdadd03-5577-4bde-b304-814870e2124c")
+	)
+	(fp_line
+		(start 0.679681 0.696199)
+		(end 0.879681 0.696199)
+		(stroke
+			(width 0.1778)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "52cde170-50ff-4d8c-853f-e771f14c3df0")
+	)
+	(fp_line
+		(start 0.879681 -0.496199)
+		(end 0.879681 -0.696199)
+		(stroke
+			(width 0.1778)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "34800748-cd4c-4493-bb7e-99a9cd1d5d04")
+	)
+	(fp_line
+		(start 0.879681 0.696199)
+		(end 0.879681 0.496199)
+		(stroke
+			(width 0.1778)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "84a4dc54-da1a-4d26-bb13-19b254590f9c")
+	)
+	(fp_poly
+		(pts
+			(xy -0.649999 -0.430002) (xy -0.25 -0.430002) (xy -0.25 -0.400002) (xy -0.429999 -0.220002) (xy -0.649999 -0.220002)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.Paste")
+		(uuid "0a2f0648-138e-4b5b-8254-417ec6f87fad")
+	)
+	(fp_poly
+		(pts
+			(xy -0.649999 0.430002) (xy -0.25 0.430002) (xy -0.25 0.400002) (xy -0.429999 0.220002) (xy -0.649999 0.220002)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.Paste")
+		(uuid "3ef4311f-f859-48b1-b708-3ad479f33b8d")
+	)
+	(fp_poly
+		(pts
+			(xy 0.649999 -0.430002) (xy 0.25 -0.430002) (xy 0.25 -0.400002) (xy 0.429999 -0.220002) (xy 0.649999 -0.220002)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.Paste")
+		(uuid "d1c1a220-ce4f-4759-b30c-9a147cf0c2fc")
+	)
+	(fp_poly
+		(pts
+			(xy 0.649999 0.430002) (xy 0.25 0.430002) (xy 0.25 0.400002) (xy 0.429999 0.220002) (xy 0.649999 0.220002)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.Paste")
+		(uuid "1f040a01-39a4-47ec-b607-0adc958e0138")
+	)
+	(fp_line
+		(start -0.525 -0.525)
+		(end 0.525 -0.525)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "64bf4be8-bb24-4043-b054-aab963692d4c")
+	)
+	(fp_line
+		(start -0.525 0.525)
+		(end -0.525 -0.525)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "d8021b28-5200-4d8b-aa51-893ed45d6050")
+	)
+	(fp_line
+		(start -0.525 0.525)
+		(end 0.525 0.525)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "45a03038-b74f-4a00-938c-2c3ad6db2239")
+	)
+	(fp_line
+		(start 0.525 0.525)
+		(end 0.525 -0.525)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "7da0685d-81b9-42dc-b759-e54388fb7281")
+	)
+	(fp_circle
+		(center -0.299999 -0.289999)
+		(end -0.213975 -0.289999)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "5e05581e-fac6-4e39-9a47-e7873e462038")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 1.9 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "f63d4611-87f4-4ff8-b51d-16292a93df8a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd custom
+		(at -0.534998 -0.325001)
+		(size 0.249999 0.309999)
+		(layers "F.Cu")
+		(options
+			(clearance outline)
+			(anchor rect)
+		)
+		(primitives
+			(gr_poly
+				(pts
+					(xy -0.125001 -0.155001) (xy 0.334998 -0.155001) (xy 0.334998 -0.054284) (xy 0.125715 0.154999)
+					(xy -0.125001 0.154999)
+				)
+				(width 0)
+				(fill yes)
+			)
+		)
+		(uuid "1bddb06f-e303-4205-88bf-7e303de1bb9a")
+	)
+	(pad "2" smd custom
+		(at -0.534998 0.325003)
+		(size 0.249999 0.309999)
+		(layers "F.Cu")
+		(options
+			(clearance outline)
+			(anchor rect)
+		)
+		(primitives
+			(gr_poly
+				(pts
+					(xy -0.125001 0.154999) (xy 0.334998 0.154999) (xy 0.334998 0.054282) (xy 0.125715 -0.155001) (xy -0.125001 -0.155001)
+				)
+				(width 0)
+				(fill yes)
+			)
+		)
+		(uuid "e6a1f31f-1022-4958-bce1-0f94dcec8f40")
+	)
+	(pad "3" smd custom
+		(at 0.534998 0.325003)
+		(size 0.249999 0.309999)
+		(layers "F.Cu")
+		(options
+			(clearance outline)
+			(anchor rect)
+		)
+		(primitives
+			(gr_poly
+				(pts
+					(xy 0.125001 0.154999) (xy -0.334998 0.154999) (xy -0.334998 0.054282) (xy -0.125715 -0.155001)
+					(xy 0.125001 -0.155001)
+				)
+				(width 0)
+				(fill yes)
+			)
+			(gr_poly
+				(pts
+					(xy -0.125 -0.155) (xy -0.125 0.155) (xy -0.334998 0.154999) (xy -0.334998 0.054282)
+				)
+				(width 0)
+				(fill yes)
+			)
+		)
+		(uuid "e7f2474e-e44c-444f-a7ee-698bddebd5db")
+	)
+	(pad "4" smd custom
+		(at 0.534997 -0.325003)
+		(size 0.249996 0.309998)
+		(layers "F.Cu")
+		(options
+			(clearance outline)
+			(anchor rect)
+		)
+		(primitives
+			(gr_poly
+				(pts
+					(xy 0.125002 -0.154999) (xy -0.334997 -0.154999) (xy -0.334997 -0.054282) (xy -0.125714 0.155001)
+					(xy 0.125002 0.155001)
+				)
+				(width 0)
+				(fill yes)
+			)
+		)
+		(uuid "f28fb159-5de2-419c-ac20-f3b0fc3545d2")
+	)
+	(pad "5" smd rect
+		(at 0 0 45)
+		(size 0.579999 0.579999)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "ca3f6ee3-ac21-43ce-acc8-f48c3958456e")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/Libraries/3D/DQN0004A.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -90)
+		)
+	)
+)

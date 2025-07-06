@@ -14,7 +14,420 @@
 		(comment 5 "Buck SMPS")
 	)
 	(lib_symbols
-		(symbol "DW_Optoelectronics:[D] Wurth Elektronik 150040RS73240"
+		(symbol "1026-3D:C"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0.635 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C"
+				(at 0.635 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0.9652 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Unpolarized capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "cap capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "C_0_1"
+				(polyline
+					(pts
+						(xy -2.032 0.762) (xy 2.032 0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "1026-3D:GND"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GND_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "1026-3D:R_US"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 2.54 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R_US"
+				(at -2.54 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 1.016 -0.254 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor, US symbol"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_US_0_1"
+				(polyline
+					(pts
+						(xy 0 2.286) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.286) (xy 1.016 1.905) (xy 0 1.524) (xy -1.016 1.143) (xy 0 0.762)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0.762) (xy 1.016 0.381) (xy 0 0) (xy -1.016 -0.381) (xy 0 -0.762)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -0.762) (xy 1.016 -1.143) (xy 0 -1.524) (xy -1.016 -1.905) (xy 0 -2.286)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -2.286) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_US_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "1026-3D:[D] Wurth Elektronik 150040RS73240"
 			(pin_names
 				(hide yes)
 			)
@@ -263,7 +676,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "DW_Passives:[L] Coilcraft Inductor XGL4025 1.5uH 11mohm"
+		(symbol "1026-3D:[L] Coilcraft Inductor XGL4025 1.5uH 11mohm"
 			(pin_names
 				(hide yes)
 			)
@@ -472,7 +885,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "DW_Semiconductors:[U] TI LM64440 Sw Volt Reg"
+		(symbol "1026-3D:[U] TI LM64440 Sw Volt Reg"
 			(pin_names
 				(offset 0.254)
 			)
@@ -963,419 +1376,6 @@
 						)
 					)
 					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Device:C"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0.254)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "C"
-				(at 0.635 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "C"
-				(at 0.635 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at 0.9652 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Unpolarized capacitor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "cap capacitor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "C_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "C_0_1"
-				(polyline
-					(pts
-						(xy -2.032 0.762) (xy 2.032 0.762)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.032 -0.762) (xy 2.032 -0.762)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "C_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 2.794)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 2.794)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Device:R_US"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "R"
-				(at 2.54 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "R_US"
-				(at -2.54 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 1.016 -0.254 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Resistor, US symbol"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "R res resistor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "R_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "R_US_0_1"
-				(polyline
-					(pts
-						(xy 0 2.286) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.286) (xy 1.016 1.905) (xy 0 1.524) (xy -1.016 1.143) (xy 0 0.762)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0.762) (xy 1.016 0.381) (xy 0 0) (xy -1.016 -0.381) (xy 0 -0.762)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -0.762) (xy 1.016 -1.143) (xy 0 -1.524) (xy -1.016 -1.905) (xy 0 -2.286)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -2.286) (xy 0 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "R_US_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 1.27)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 1.27)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "power:GND"
-			(power)
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 -6.35 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "GND"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "GND_0_1"
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "GND_1_1"
-				(pin power_in line
-					(at 0 0 270)
-					(length 0)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2664,7 +2664,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
+		(lib_id "1026-3D:C")
 		(at 162.56 97.79 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2691,7 +2691,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "1026-3D:C_0402_1005Metric"
 			(at 161.5948 93.98 0)
 			(effects
 				(font
@@ -2788,7 +2788,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
+		(lib_id "1026-3D:C")
 		(at 215.9 87.63 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2815,7 +2815,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
+		(property "Footprint" "1026-3D:C_1210_3225Metric"
 			(at 216.8652 91.44 0)
 			(effects
 				(font
@@ -2911,7 +2911,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_US")
+		(lib_id "1026-3D:R_US")
 		(at 195.58 87.63 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2938,7 +2938,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "1026-3D:R_0402_1005Metric"
 			(at 196.596 87.884 90)
 			(effects
 				(font
@@ -3035,7 +3035,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_US")
+		(lib_id "1026-3D:R_US")
 		(at 118.11 50.8 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3062,7 +3062,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "1026-3D:R_0402_1005Metric"
 			(at 118.364 49.784 90)
 			(effects
 				(font
@@ -3159,7 +3159,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
+		(lib_id "1026-3D:C")
 		(at 71.12 72.39 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3186,7 +3186,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
+		(property "Footprint" "1026-3D:C_1210_3225Metric"
 			(at 72.0852 76.2 0)
 			(effects
 				(font
@@ -3282,7 +3282,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
+		(lib_id "1026-3D:GND")
 		(at 76.2 127 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3348,7 +3348,7 @@
 		)
 	)
 	(symbol
-		(lib_id "DW_Optoelectronics:[D] Wurth Elektronik 150040RS73240")
+		(lib_id "1026-3D:[D] Wurth Elektronik 150040RS73240")
 		(at 152.4 50.8 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3373,7 +3373,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "DW_Optoelectronics:[D] Wurth Elektronik 150040RS73240"
+		(property "Footprint" "1026-3D:[D] Wurth Elektronik 150040RS73240"
 			(at 139.7 -42.85 0)
 			(effects
 				(font
@@ -3476,7 +3476,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
+		(lib_id "1026-3D:C")
 		(at 228.6 87.63 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3503,7 +3503,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
+		(property "Footprint" "1026-3D:C_1210_3225Metric"
 			(at 229.5652 91.44 0)
 			(effects
 				(font
@@ -3599,7 +3599,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
+		(lib_id "1026-3D:C")
 		(at 86.36 72.39 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3626,7 +3626,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "1026-3D:C_0402_1005Metric"
 			(at 87.3252 76.2 0)
 			(effects
 				(font
@@ -3722,7 +3722,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
+		(lib_id "1026-3D:C")
 		(at 175.26 88.9 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3749,7 +3749,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "1026-3D:C_0402_1005Metric"
 			(at 179.07 87.9348 0)
 			(effects
 				(font
@@ -3846,7 +3846,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
+		(lib_id "1026-3D:C")
 		(at 93.98 72.39 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3873,7 +3873,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "1026-3D:C_0402_1005Metric"
 			(at 94.9452 76.2 0)
 			(effects
 				(font
@@ -3969,7 +3969,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
+		(lib_id "1026-3D:C")
 		(at 76.2 105.41 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3996,7 +3996,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "1026-3D:C_0603_1608Metric"
 			(at 77.1652 109.22 0)
 			(effects
 				(font
@@ -4093,7 +4093,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_US")
+		(lib_id "1026-3D:R_US")
 		(at 203.2 92.71 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4120,7 +4120,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "1026-3D:R_0402_1005Metric"
 			(at 204.216 92.964 90)
 			(effects
 				(font
@@ -4217,7 +4217,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_US")
+		(lib_id "1026-3D:R_US")
 		(at 203.2 115.57 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4244,7 +4244,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "1026-3D:R_0402_1005Metric"
 			(at 202.184 115.316 90)
 			(effects
 				(font
@@ -4341,7 +4341,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_US")
+		(lib_id "1026-3D:R_US")
 		(at 63.5 95.25 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4368,7 +4368,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "1026-3D:R_0402_1005Metric"
 			(at 64.516 95.504 90)
 			(effects
 				(font
@@ -4465,7 +4465,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_US")
+		(lib_id "1026-3D:R_US")
 		(at 63.5 82.55 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4492,7 +4492,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "1026-3D:R_0402_1005Metric"
 			(at 64.516 82.804 90)
 			(effects
 				(font
@@ -4589,7 +4589,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
+		(lib_id "1026-3D:C")
 		(at 78.74 72.39 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4616,7 +4616,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
+		(property "Footprint" "1026-3D:C_1210_3225Metric"
 			(at 79.7052 76.2 0)
 			(effects
 				(font
@@ -4712,7 +4712,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
+		(lib_id "1026-3D:C")
 		(at 195.58 100.33 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4739,7 +4739,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "1026-3D:C_0402_1005Metric"
 			(at 194.6148 96.52 0)
 			(effects
 				(font
@@ -4836,7 +4836,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_US")
+		(lib_id "1026-3D:R_US")
 		(at 175.26 67.31 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4863,7 +4863,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "1026-3D:R_0402_1005Metric"
 			(at 175.514 66.294 90)
 			(effects
 				(font
@@ -4960,7 +4960,7 @@
 		)
 	)
 	(symbol
-		(lib_id "DW_Passives:[L] Coilcraft Inductor XGL4025 1.5uH 11mohm")
+		(lib_id "1026-3D:[L] Coilcraft Inductor XGL4025 1.5uH 11mohm")
 		(at 165.1 78.74 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4985,7 +4985,7 @@
 				)
 			)
 		)
-		(property "Footprint" "DW_Passives:[L] Coilcraft Inductor XGL4025"
+		(property "Footprint" "1026-3D:[L] Coilcraft Inductor XGL4025"
 			(at 181.61 174.93 0)
 			(effects
 				(font
@@ -5088,7 +5088,7 @@
 		)
 	)
 	(symbol
-		(lib_id "DW_Semiconductors:[U] TI LM64440 Sw Volt Reg")
+		(lib_id "1026-3D:[U] TI LM64440 Sw Volt Reg")
 		(at 101.6 66.04 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5113,7 +5113,7 @@
 				)
 			)
 		)
-		(property "Footprint" "DW_Semiconductors:[U] TI LM63460 Sw Volt Reg"
+		(property "Footprint" "1026-3D:[U] TI LM63460 Sw Volt Reg"
 			(at 127 127 0)
 			(effects
 				(font

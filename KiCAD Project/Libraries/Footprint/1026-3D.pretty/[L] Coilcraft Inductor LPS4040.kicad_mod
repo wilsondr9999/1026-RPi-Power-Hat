@@ -1,0 +1,314 @@
+(footprint "[L] Coilcraft Inductor LPS4040"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Shielded Ferrite Inductor LPS4040")
+	(tags "Shielded Ferrite Inductor LPS4040")
+	(property "Reference" "REF**"
+		(at -3 -2 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "68c72096-f9ea-4e42-8f58-6812e6d5f7be")
+		(effects
+			(font
+				(size 0.762 0.762)
+				(thickness 0.1905)
+				(bold yes)
+			)
+		)
+	)
+	(property "Value" "LPS4040-223"
+		(at 0 14.66 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "a78bf10f-7649-4e4a-8171-fd64602cae4d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.coilcraft.com/getmedia/f7e40242-0039-4f27-a16a-aab00a43fe02/lps4040.pdf"
+		(at 0 5.25 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f5ab774b-d04e-4b1e-826d-51355f6a0f56")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Input Filter Inductor"
+		(at 0 3.75 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0f1c907c-e75d-4788-ab95-5dfb7053d585")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Height" "4"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0be3bf11-2ba3-4fe3-92e8-6d3c9292cc7a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Mouser Part Number" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2a3a0097-93bf-4ca5-9658-4189fdfa1d13")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Mouser Price/Stock" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a912fd3e-6cc7-492b-944c-5b762f367389")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer_Name" "Coilcraft"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9a4bb7b2-0869-491d-a4a6-01b80b246976")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer_Part_Number" "LPS4040-223"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b4357a88-e6a3-4a73-9be0-e1289ca7ff30")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Spec" "22uH 0.8A 210mohm"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9978db4f-6cb1-48e8-9230-c3403fbd95ce")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -2 -2)
+		(end -1.75 -2)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "9c420522-c96c-4ca2-997a-3d054de741f4")
+	)
+	(fp_line
+		(start -2 -1.75)
+		(end -2 -2)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "1c4f6a8c-6d35-40a3-ab81-7458efdf5030")
+	)
+	(fp_line
+		(start -2 2)
+		(end -2 1.75)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "24d1257d-53eb-4355-9aa6-fbb20df1a926")
+	)
+	(fp_line
+		(start -1.75 2)
+		(end -2 2)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "12481d5d-018f-49a8-9bff-52b8b5fa649b")
+	)
+	(fp_line
+		(start -0.5 -2)
+		(end 0.5 -2)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "2f6bfe15-d949-44c5-9ee8-7296c57a5f54")
+	)
+	(fp_line
+		(start 0.5 2)
+		(end -0.5 2)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "4b8316c7-136b-4f76-affd-3231d3e60659")
+	)
+	(fp_line
+		(start 1.75 -2)
+		(end 2 -2)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "efd5e632-b984-44df-a4c7-1dcd57a01922")
+	)
+	(fp_line
+		(start 2 -2)
+		(end 2 -1.75)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "62c38cfc-7672-49e0-95e8-9461a6b77106")
+	)
+	(fp_line
+		(start 2 1.75)
+		(end 2 2)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "804d61c8-7357-413d-b54b-92047b381bd3")
+	)
+	(fp_line
+		(start 2 2)
+		(end 1.75 2)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "3ea2033d-bab2-4a83-9be4-0fc9623c65a2")
+	)
+	(fp_circle
+		(center -2.6 0)
+		(end -2.5 0)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "2720c799-af8a-4bf5-a7bd-59cba3ff7cea")
+	)
+	(fp_rect
+		(start -2.5 -2.5)
+		(end 2.5 2.5)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "70bb9167-02a9-42ab-b64f-06243b70fd70")
+	)
+	(pad "1" smd custom
+		(at -1.75 -0.25)
+		(size 0.5 0.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(thermal_bridge_angle 45)
+		(options
+			(clearance outline)
+			(anchor rect)
+		)
+		(primitives
+			(gr_poly
+				(pts
+					(xy 0.4 -0.325) (xy 1 -0.925) (xy 1 -1.7) (xy 0.125 -1.7) (xy -0.45 -1.15) (xy -0.45 1.65) (xy 0.1 2.2)
+					(xy 1 2.2) (xy 1 1.425) (xy 0.4 0.825)
+				)
+				(width 0.01)
+				(fill yes)
+			)
+		)
+		(uuid "fa95c55f-8816-44d0-9057-aa42873c9a9e")
+	)
+	(pad "2" smd custom
+		(at 1.75 0 180)
+		(size 0.5 0.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(thermal_bridge_angle 45)
+		(options
+			(clearance outline)
+			(anchor rect)
+		)
+		(primitives
+			(gr_poly
+				(pts
+					(xy 0.4 0.575) (xy 1 1.175) (xy 1 1.95) (xy 0.125 1.95) (xy -0.45 1.4) (xy -0.45 -1.4) (xy 0.1 -1.95)
+					(xy 1 -1.95) (xy 1 -1.175) (xy 0.4 -0.575)
+				)
+				(width 0.01)
+				(fill yes)
+			)
+		)
+		(uuid "c66be113-cc7f-453e-bbc2-6b27605a7be1")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/Libraries/3D/Coilcraft-LPS4040.STEP"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 0)
+		)
+	)
+)

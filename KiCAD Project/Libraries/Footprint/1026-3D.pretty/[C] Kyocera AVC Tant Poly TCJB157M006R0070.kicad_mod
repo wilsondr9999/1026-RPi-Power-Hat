@@ -1,0 +1,280 @@
+(footprint "[C] Kyocera AVC Tant Poly TCJB157M006R0070"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "AVX 150uF SMD Solid Polymer Tantalum Electrolytic Capacitor, 6.3 V dc +/-20%, TCJ Series")
+	(tags "AVX 150uF SMD Solid Polymer Tantalum Electrolytic Capacitor, 6.3 V dc +/-20%, TCJ Series")
+	(property "Reference" "REF**"
+		(at 3.2 0.1 270)
+		(layer "F.SilkS")
+		(uuid "d30aae7c-bc0f-42c8-af4b-6073ba6b2fbb")
+		(effects
+			(font
+				(size 0.762 0.762)
+				(thickness 0.1905)
+				(bold yes)
+			)
+		)
+	)
+	(property "Value" "TCJB157M006R0070"
+		(at 0 0 180)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "cfd16964-f455-4182-aa0e-00b9b7cb4547")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.mouser.com/datasheet/2/40/TCJ-2887130.pdf"
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b5234190-8db8-482b-ad65-2b6edb7116f0")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "AVX 150uF SMD Solid Polymer Tantalum Electrolytic Capacitor, 6.3 V dc +/-20%, TCJ Series"
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "791b9cc5-df30-48de-bd8a-264f1499e6c6")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Height" "2.1"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "773af3c9-c833-40e0-9c95-56a82e8071c0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Mouser Part Number" "581-TCJB157M006R0070"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b7b49947-bc34-4cfa-972a-3908980f9691")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Mouser Price/Stock" "https://www.mouser.com/ProductDetail/KYOCERA-AVX/TCJB157M006R0070?qs=sGAEpiMZZMtZ1n0r9vR22Vo76tYnmDT9Xj8e1bjhAMU%3D"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5143fda9-214d-4cfe-b7a6-33221ef1b531")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer_Name" "Kyocera AVX"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "90dfb28f-33fa-4866-b3c3-dc125ba73e63")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer_Part_Number" "TCJB157M006R0070"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d148df17-5907-43ba-b265-9442342fef7c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Spec" "150u 6V3"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "93d63eef-1454-4576-b4c0-552506d15a4a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -1.75 1.425)
+		(end 1.75 1.425)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "0fc900d4-04a2-4c2a-be60-dfdc69554d1d")
+	)
+	(fp_line
+		(start 1.75 -1.425)
+		(end -2.35 -1.425)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "82649635-43cc-45ab-8687-e07f3f9ecddd")
+	)
+	(fp_line
+		(start -2.6 -1.75)
+		(end 2.6 -1.75)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "7991aacc-0586-4db1-ba72-fca5b8cf5499")
+	)
+	(fp_line
+		(start -2.6 1.75)
+		(end -2.6 -1.75)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "cf45e2a5-5037-4000-bdd4-2599ad143a00")
+	)
+	(fp_line
+		(start 2.6 -1.75)
+		(end 2.6 1.75)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "2d86ad43-465f-4605-aaac-6bcdd4544415")
+	)
+	(fp_line
+		(start 2.6 1.75)
+		(end -2.6 1.75)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "d19a0db3-13de-4764-87ff-5d79730de138")
+	)
+	(fp_line
+		(start -1.75 -1.425)
+		(end 1.75 -1.425)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "025353dd-f3b0-4e4d-9587-4071d979c8e4")
+	)
+	(fp_line
+		(start -1.75 -0.525)
+		(end -0.85 -1.425)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "51bd338f-0480-4609-9177-3f540b012c06")
+	)
+	(fp_line
+		(start -1.75 1.425)
+		(end -1.75 -1.425)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "2a9d9f2c-e9a1-479b-92a5-e9421777808c")
+	)
+	(fp_line
+		(start 1.75 -1.425)
+		(end 1.75 1.425)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "d7792488-faad-45e5-8f97-a60d7f0e814a")
+	)
+	(fp_line
+		(start 1.75 1.425)
+		(end -1.75 1.425)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "c239bb45-e122-44f3-b10c-199f1f4dcb49")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 3.5 180)
+		(layer "F.Fab")
+		(uuid "d8be2988-42fd-4589-a8ac-dbc13dd5fa5f")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -1.45 0)
+		(size 1.8 2.3)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "a1271d08-bba1-4bb2-a686-3c279399bbd9")
+	)
+	(pad "2" smd rect
+		(at 1.45 0)
+		(size 1.8 2.3)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "3ac15521-9e8a-4a11-8dcc-da31e9910938")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/Libraries/3D/TCJB157M006R0070.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

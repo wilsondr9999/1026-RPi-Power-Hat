@@ -1,0 +1,332 @@
+(footprint "[D] Littelfuse SMF24CA 24V 200W"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "SOD-123FL")
+	(tags "TVS Diode (Bi-directional)")
+	(property "Reference" "REF**"
+		(at 1.5 1.5 180)
+		(layer "F.SilkS")
+		(uuid "6221b0aa-213c-4b03-96d2-60063603a99f")
+		(effects
+			(font
+				(size 0.762 0.762)
+				(thickness 0.1905)
+				(bold yes)
+			)
+		)
+	)
+	(property "Value" "SMF24CA"
+		(at 0 3 180)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "52ad8f79-4855-4289-962d-4602d63ab2d0")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.mouser.com/datasheet/2/240/media-3321418.pdf"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "87d1e684-9c06-4753-b7e8-bf8480ce4dfc")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Input TVS Surge Suppression"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4b68b9ce-a9bb-4b27-8e10-5c7951d644e5")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Height" "1.08"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "33b1adaf-1325-4d76-b426-98f327d965b4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer_Name" "Littelfuse"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ec0b2626-5eb0-4bdd-9d89-4ca278244e47")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer_Part_Number" "SMF24CA"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "eec0a041-16b8-4184-a590-db6d1c0cf98a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Mouser Part Number" "576-SMF24CA"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6a0ef644-6102-40dd-b674-a7979f48731b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Mouser Price/Stock" "https://www.mouser.com/ProductDetail/Littelfuse/SMF24CA?qs=d0WKAl%252BL4KZ7Y3Ls3uQ%252BqA%3D%3D"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2ba2b6c9-b1fd-41d0-a8cf-5c604a547c41")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Spec" "TVS BiDir 24V 200W"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2f39a4c1-00e7-4c98-86e8-ca7e82813959")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -0.25 -0.875)
+		(end -0.25 -0.875)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ed8d2842-576f-46dd-8150-a0da6b24c2fd")
+	)
+	(fp_line
+		(start -0.25 -0.875)
+		(end 0.25 -0.875)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "87408bdb-6930-4137-80fe-4afb70114738")
+	)
+	(fp_line
+		(start -0.25 0.875)
+		(end -0.25 0.875)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "2f37b915-301c-4c0f-9f42-ab2c1620b2e6")
+	)
+	(fp_line
+		(start -0.25 0.875)
+		(end 0.25 0.875)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "588c5f95-10b5-4efa-87aa-da124dcee384")
+	)
+	(fp_line
+		(start 0.25 -0.875)
+		(end -0.25 -0.875)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "23c55f8e-56d5-4bfb-ba2d-e2804365e3d1")
+	)
+	(fp_line
+		(start 0.25 -0.875)
+		(end 0.25 -0.875)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "69f110fa-2ade-4c1a-a5ee-9c44b7b022de")
+	)
+	(fp_line
+		(start 0.25 0.875)
+		(end -0.25 0.875)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "777a0db9-12c2-4233-81c1-ab4c073b75cd")
+	)
+	(fp_line
+		(start 0.25 0.875)
+		(end 0.25 0.875)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a51c3934-5a66-415b-a4cd-69ee4f9668dc")
+	)
+	(fp_line
+		(start -2.5 -1.25)
+		(end 2.5 -1.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "67b6b79c-9633-4606-ba3e-7e52d626fb13")
+	)
+	(fp_line
+		(start -2.5 1.25)
+		(end -2.5 -1.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "6716a181-9292-4331-aed5-a02519f93a66")
+	)
+	(fp_line
+		(start 2.5 -1.25)
+		(end 2.5 1.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "c6a0d263-7901-4253-b36f-039be31c5266")
+	)
+	(fp_line
+		(start 2.5 1.25)
+		(end -2.5 1.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "98d36a8b-7e40-4f8d-b0ad-21d83b088a20")
+	)
+	(fp_line
+		(start -1.5 -0.875)
+		(end -1.5 0.875)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "14c2cd9f-12d4-4ce7-9ed3-0257bd691cf4")
+	)
+	(fp_line
+		(start -1.5 0.875)
+		(end 1.5 0.875)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "d29ea6bd-7674-4a73-aea3-eb38bf5f667a")
+	)
+	(fp_line
+		(start 1.5 -0.875)
+		(end -1.5 -0.875)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "b77b4722-9289-4e3c-ab14-a47b37a5d55f")
+	)
+	(fp_line
+		(start 1.5 0.875)
+		(end 1.5 -0.875)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "11afd0f4-6d8d-46fd-8e0d-6a2cf565fa1b")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 5 180)
+		(layer "F.Fab")
+		(uuid "7d7271a6-0ee0-4bf4-9717-30704ea9d6e0")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -1.45 0)
+		(size 1.3 1.4)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "f6f2dfa4-2cbe-4e1b-a580-abb2f559c7b5")
+	)
+	(pad "2" smd rect
+		(at 1.45 0)
+		(size 1.3 1.4)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "441059ef-645b-4c09-873a-5818193a0916")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/Libraries/3D/SMF26CA.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

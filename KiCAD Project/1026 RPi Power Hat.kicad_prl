@@ -120,8 +120,8 @@
   "project": {
     "files": [
       {
-        "name": "1026 RPi Power Hat.kicad_sch",
-        "open": false,
+        "name": "1026 RPi Power Hat.kicad_pcb",
+        "open": true,
         "window": {
           "display": 0,
           "maximized": true,
@@ -132,8 +132,8 @@
         }
       },
       {
-        "name": "1026 RPi Power Hat.kicad_pcb",
-        "open": false,
+        "name": "1026 RPi Power Hat.kicad_sch",
+        "open": true,
         "window": {
           "display": 0,
           "maximized": true,

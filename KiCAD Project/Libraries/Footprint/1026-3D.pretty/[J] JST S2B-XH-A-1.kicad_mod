@@ -1,0 +1,321 @@
+(footprint "[J] JST S2B-XH-A-1"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "JST S2B-XH-A-1")
+	(tags "JST S2B XH")
+	(property "Reference" "REF**"
+		(at -5.0125 -6.46925 180)
+		(layer "F.SilkS")
+		(uuid "2d2058d9-b277-4cd5-9c38-64a4dfb82d3c")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+		)
+	)
+	(property "Value" "S2B-XH-A-1"
+		(at 0 5.45 180)
+		(layer "F.Fab")
+		(uuid "d1c0d5b7-eb7f-4e8e-b5a4-0e46e5672a9f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.jst-mfg.com/product/pdf/eng/eXH.pdf"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "083a03df-8c86-4367-8725-16a53f99b657")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Input Power Connector"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "537ef366-de6d-4dfd-bee1-153d6eaac778")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "DigiKey_Part_Number" "455-S2B-XH-A-1-ND"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "12a2c6fe-9a2b-4970-87eb-7dd196515ebc")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Height" "7 mm"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9446f565-ab67-45b2-ba86-8f0c2e518488")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Mouser Part Number" "306-S2BXHA1LFSN"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b3f5e736-56ba-482b-9947-e87e17533802")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer_Name" "JST"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "252b4459-7a45-4ffe-9baa-927db28759fe")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer_Part_Number" "S2B-XH-A-1"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "80a11918-c060-4884-8cc0-25ce045cf289")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Spec" "JST-XH-2 Side"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1ff97533-18ed-4494-aad3-8d6a455eb017")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Mouser Price/Stock" "https://www.mouser.com/ProductDetail/JST-Commercial/S2B-XH-A-1LFSN?qs=QpmGXVUTftHhNeC%252BPQWeTw%3D%3D"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "92a46ac8-719e-4189-aaa5-03d9ad484eef")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -3.7 -7.6)
+		(end -3.7 3.9)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f532339e-a89f-4e33-a5e6-88844ff87ec7")
+	)
+	(fp_line
+		(start -3.7 -7.6)
+		(end 3.7 -7.6)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "2c8c064d-e7b5-4597-afe6-70e9a7eef22e")
+	)
+	(fp_line
+		(start -3.7 3.9)
+		(end 3.7 3.9)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "6c2daa30-f0fa-482e-8c0f-0398b61bb6d0")
+	)
+	(fp_line
+		(start 3.7 -7.6)
+		(end 3.7 3.9)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "55de27d0-ab84-4c23-a422-f866a6bc1e99")
+	)
+	(fp_circle
+		(center -4.35 0)
+		(end -4.25 0)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "67ca8a76-2768-476c-b75a-c000daca02db")
+	)
+	(fp_line
+		(start -4 -7.6)
+		(end -4 4.2)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "8395ca81-ac3d-4220-a7e9-01e1528cf56f")
+	)
+	(fp_line
+		(start -4 -7.6)
+		(end 4 -7.6)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "f0858bdc-f887-402d-bab6-c5326e90ac06")
+	)
+	(fp_line
+		(start -4 4.2)
+		(end 4 4.2)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "8256f7bf-a9f6-4b3b-9d64-3417f3cf80ab")
+	)
+	(fp_line
+		(start 4 -7.6)
+		(end 4 4.2)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "95c19a9e-b3e5-4484-b65d-1f07bac87fcd")
+	)
+	(fp_line
+		(start -3.7 -7.6)
+		(end 3.7 -7.6)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "c02b0c0d-b56a-488d-9bb9-ea94723b10b0")
+	)
+	(fp_line
+		(start -3.7 3.9)
+		(end -3.7 -7.6)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "cb183f0b-2fdf-4597-bec6-7ecceb8fd524")
+	)
+	(fp_line
+		(start -3.7 3.9)
+		(end 3.7 3.9)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "abe75e97-6ce7-4fc3-bfd4-cface0f64312")
+	)
+	(fp_line
+		(start 3.7 -7.6)
+		(end 3.7 3.9)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "a0a76e15-3463-4d69-8a99-e07382814760")
+	)
+	(fp_circle
+		(center -4.35 0)
+		(end -4.25 0)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "97082b7f-ecfe-46c4-89a3-30bdc169eb34")
+	)
+	(pad "1" thru_hole rect
+		(at -1.25 0)
+		(size 1.575 1.575)
+		(drill 1.05)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "f31a4102-9ea7-4c07-b84f-8012cf7b35d4")
+	)
+	(pad "2" thru_hole circle
+		(at 1.25 0)
+		(size 1.575 1.575)
+		(drill 1.05)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "fd7fbdf5-802e-432e-9de7-16aa1f45aa53")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/Libraries/3D/S2B-XH-A-1.STEP"
+		(offset
+			(xyz 0 1.85 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -180)
+		)
+	)
+)

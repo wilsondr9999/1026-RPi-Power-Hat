@@ -1,0 +1,456 @@
+(footprint "[U] TI USB Power Ctlr TPS2561DRCR"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Power Switch ICs - Power Distribution Dual Ch Prec Adj Current-Ltd Pwr Sw")
+	(tags "Power Switch ICs - Power Distribution Dual Ch Prec Adj Current-Ltd Pwr Sw")
+	(property "Reference" "REF**"
+		(at 0 -2.71 180)
+		(layer "F.SilkS")
+		(uuid "68fd846d-d775-475d-8a95-54ff2540d0ac")
+		(effects
+			(font
+				(size 0.762 0.762)
+				(thickness 0.1905)
+				(bold yes)
+			)
+		)
+	)
+	(property "Value" "TPS2561DRCR"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "e1c773fe-f52c-40c2-946a-c02b8df6af43")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.ti.com/lit/gpn/TPS2561"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6d341fcc-fdeb-4bcd-8c80-5100b7ab22c8")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Power Switch ICs - Power Distribution Dual Ch Prec Adj Current-Ltd Pwr Sw"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "04c3273a-c8bf-4f69-90ba-b6527ab3a098")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Height" "1.0"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e310fe1b-7ef1-4bcd-ae49-247359653a45")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Mouser Part Number" "595-TPS2561DRCR"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "30a56e03-0a95-4e3b-8ec7-9ab0169cf286")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TPS2561DRCR?qs=%2Fqzd9s%252BcLd7rIDSRKlRjAw%3D%3D"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b5058995-0eb2-4f6b-829c-008535c17e61")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer_Name" "Texas Instruments"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5eb13c71-3876-4c9d-aac3-e03c5627aca8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer_Part_Number" "TPS2561DRCR"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "cfb8deff-6ca1-414c-a817-e6b25dd5dfa8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Spec" "TPS2561DRCR"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "256ca2b9-e2bb-4214-a8ef-f7c6196d8c09")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -1.9 -2)
+		(end -1.9 -2)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "3b793764-e765-4882-ae6d-65370068e5c4")
+	)
+	(fp_line
+		(start -1.9 -1.8)
+		(end -1.9 -1.8)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "9a6bf495-666d-40d7-a4f9-55f28087703d")
+	)
+	(fp_line
+		(start -1.5 -1.5)
+		(end -0.6 -1.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "295bd21f-a82f-42da-bb78-1ae0ec535d67")
+	)
+	(fp_line
+		(start -1.5 -1.3)
+		(end -1.5 -1.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f3c4b508-f488-41de-9582-85d2848df369")
+	)
+	(fp_line
+		(start -1.5 1.3)
+		(end -1.5 1.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f79e3eb7-fe41-43ed-a9ac-78f6511a7449")
+	)
+	(fp_line
+		(start -1.5 1.5)
+		(end -0.6 1.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "66b12988-88cf-4b53-82b3-c645e42c92ca")
+	)
+	(fp_line
+		(start 0.6 -1.5)
+		(end 1.5 -1.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "5312840b-91dd-49fc-87a4-cbcd9fdc699b")
+	)
+	(fp_line
+		(start 0.6 1.5)
+		(end 1.5 1.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "2c45d441-49db-41ab-a551-900e8891eda4")
+	)
+	(fp_line
+		(start 1.5 -1.5)
+		(end 1.5 -1.3)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "14858c2c-801b-4234-b34f-c4c1f6f35253")
+	)
+	(fp_line
+		(start 1.5 1.5)
+		(end 1.5 1.3)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "bf84095a-036f-455a-8d20-61c2ff5af35f")
+	)
+	(fp_arc
+		(start -1.9 -2)
+		(mid -1.8 -1.9)
+		(end -1.9 -1.8)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "485b06e1-bb6a-45b4-b0a8-31b4eb03e1af")
+	)
+	(fp_arc
+		(start -1.9 -1.8)
+		(mid -2 -1.9)
+		(end -1.9 -2)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c92286d4-931a-4767-8e2c-f03acf43f618")
+	)
+	(fp_line
+		(start -2.1 -2.1)
+		(end 2.1 -2.1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "457b5846-4353-4c6c-a79b-34466e4d68ef")
+	)
+	(fp_line
+		(start -2.1 2.1)
+		(end -2.1 -2.1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "12be85e3-8d6a-40e5-b4ce-0a0bdbeb11d9")
+	)
+	(fp_line
+		(start 2.1 -2.1)
+		(end 2.1 2.1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "080f723f-1d9b-4511-b35e-d044c65b94ce")
+	)
+	(fp_line
+		(start 2.1 2.1)
+		(end -2.1 2.1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "51c0d216-d7ee-4296-b662-6d9a3897be8d")
+	)
+	(fp_line
+		(start -1.5 -1.5)
+		(end 1.5 -1.5)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "12a23a1b-35e9-434e-ab5c-b4ffc4841527")
+	)
+	(fp_line
+		(start -1.5 1.5)
+		(end -1.5 -1.5)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "3cb938c6-75f6-48c8-9184-8287ac0ecc0b")
+	)
+	(fp_line
+		(start 1.5 -1.5)
+		(end 1.5 1.5)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "94470b6c-f372-4efd-931b-817739264f8d")
+	)
+	(fp_line
+		(start 1.5 1.5)
+		(end -1.5 1.5)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "442f8620-16f3-4c6f-b6f2-5ff4f921974c")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 4 0)
+		(layer "F.Fab")
+		(uuid "eab74d07-8ea6-4b3f-8692-462547bb072c")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -1.4 -1 90)
+		(size 0.24 0.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "94150981-ce39-4c0d-abbb-721b0f6e1330")
+	)
+	(pad "2" smd rect
+		(at -1.4 -0.5 90)
+		(size 0.24 0.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "e4f2e7e5-10e1-418e-815f-025ea78be9d0")
+	)
+	(pad "3" smd rect
+		(at -1.4 0 90)
+		(size 0.24 0.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "326e7e6b-096b-4dcb-9027-517ea80d2944")
+	)
+	(pad "4" smd rect
+		(at -1.4 0.5 90)
+		(size 0.24 0.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "2accffce-073d-40c9-8daa-cb856e45dd3b")
+	)
+	(pad "5" smd rect
+		(at -1.4 1 90)
+		(size 0.24 0.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "15af804d-0408-450e-bf9c-423f043f5e2d")
+	)
+	(pad "6" smd rect
+		(at 1.4 1 90)
+		(size 0.24 0.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "88940ca2-a26a-4e25-9078-5a8093589597")
+	)
+	(pad "7" smd rect
+		(at 1.4 0.5 90)
+		(size 0.24 0.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "47fe7609-2375-406d-b305-b394bf1e57ce")
+	)
+	(pad "8" smd rect
+		(at 1.4 0 90)
+		(size 0.24 0.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "dc0e71ff-e14a-4adc-8c6b-9ec44ad273bf")
+	)
+	(pad "9" smd rect
+		(at 1.4 -0.5 90)
+		(size 0.24 0.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "5c59efa2-59b9-4337-a7db-b710e22c525e")
+	)
+	(pad "10" smd rect
+		(at 1.4 -1 90)
+		(size 0.24 0.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "19f98a83-0a58-4355-874e-dc04e63921db")
+	)
+	(pad "EP1" smd custom
+		(at 0 0)
+		(size 1.65 2.4)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(options
+			(clearance outline)
+			(anchor rect)
+		)
+		(primitives
+			(gr_rect
+				(start -0.375 -1.7)
+				(end -0.125 -1.175)
+				(width 0)
+				(fill yes)
+			)
+			(gr_rect
+				(start -0.375 1.175)
+				(end -0.125 1.7)
+				(width 0)
+				(fill yes)
+			)
+			(gr_rect
+				(start 0.125 -1.7)
+				(end 0.375 -1.175)
+				(width 0)
+				(fill yes)
+			)
+			(gr_rect
+				(start 0.125 1.175)
+				(end 0.375 1.7)
+				(width 0)
+				(fill yes)
+			)
+		)
+		(uuid "8d07f51a-6821-476a-8324-39a962f7574c")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/Libraries/3D/TPS2561DRCR.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

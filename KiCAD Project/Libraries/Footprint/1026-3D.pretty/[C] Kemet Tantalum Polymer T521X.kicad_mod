@@ -1,0 +1,280 @@
+(footprint "[C] Kemet Tantalum Polymer T521X"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "T521, Tantalum, Polymer Tantalum, Commercial Grade, SMD, Polymer, Molded, Low ESR, Non-Combustible, 2,000 Hrs, 10 %")
+	(tags "T521, Tantalum, Polymer Tantalum, Commercial Grade, SMD, Polymer, Molded, Low ESR, Non-Combustible, 2,000 Hrs, 10 %")
+	(property "Reference" "REF**"
+		(at 3 -3 180)
+		(layer "F.SilkS")
+		(uuid "471b0c92-7fc2-4f6f-85f4-592365e48f59")
+		(effects
+			(font
+				(size 0.762 0.762)
+				(thickness 0.1905)
+				(bold yes)
+			)
+		)
+	)
+	(property "Value" "T521D336M035ATE065"
+		(at 0 4 180)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "10d995fe-f006-4acb-b06a-904a909666d0")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.mouser.com/datasheet/2/447/KEM_T2076_T52X_530-3317002.pdf"
+		(at 0 8.25 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "84be5edb-dd3a-4c00-a82a-f3456ab7e978")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Input Filter Cap Tant Poly"
+		(at 0 10.25 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "640c5b3c-5480-4e40-9ce5-157e83df0834")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Height" "4.3"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ed23e01a-92f5-47c1-89ff-ae0eeb4a7186")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Mouser Part Number" "80-T521D336M35ATE65"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b180e628-071f-4433-a905-4f5c0bc5d814")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Mouser Price/Stock" "https://www.mouser.com/ProductDetail/KEMET/T521D336M035ATE065?qs=1gHfTFoodzaHxXmfIl2UDw%3D%3D"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "fbb907cb-4a79-4e20-a569-93e333e1facb")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer_Name" "KEMET"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1acdeecf-a0c6-466e-ae93-11f077b4f9ff")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer_Part_Number" "T521D336M035ATE065"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "fac93eb9-5575-4f63-a6ae-c67de4b5f7ad")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Spec" "33u 35V"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "bab18184-d045-44aa-989c-5cb66926fe5f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -4.75 -2)
+		(end -4.75 2)
+		(stroke
+			(width 0.381)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "04469b19-216f-4bfd-bd17-af96a27cd3d5")
+	)
+	(fp_line
+		(start -3.65 -2.15)
+		(end 3.65 -2.15)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ad9d0442-9c62-4984-8742-e0b2c28efda4")
+	)
+	(fp_line
+		(start 3.65 2.15)
+		(end -3.65 2.15)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f58464aa-6e1c-4a82-98a6-d893a99bcfac")
+	)
+	(fp_line
+		(start -5.105 -2.5)
+		(end 4.5 -2.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "af794a2a-a800-4425-a3e1-a16439454016")
+	)
+	(fp_line
+		(start -5.105 2.5)
+		(end -5.105 -2.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "0b0b2205-2f84-4e53-9772-f6b66e92e281")
+	)
+	(fp_line
+		(start 4.5 -2.5)
+		(end 4.5 2.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "2d4c8e15-77e1-4c9f-acb4-1329790d3573")
+	)
+	(fp_line
+		(start 4.5 2.5)
+		(end -5.105 2.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "35153970-9a46-418d-8e5e-47a17f647767")
+	)
+	(fp_line
+		(start -3.65 -2.15)
+		(end 3.65 -2.15)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "ed3f363f-26cb-45d0-90bd-8a5b5c4608df")
+	)
+	(fp_line
+		(start -3.65 2.15)
+		(end -3.65 -2.15)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "094cdb2e-9cc6-4a58-91d8-646c5cbaa4aa")
+	)
+	(fp_line
+		(start 3.65 -2.15)
+		(end 3.65 2.15)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "7611a283-f8b5-4040-b247-ab12a5ad330a")
+	)
+	(fp_line
+		(start 3.65 2.15)
+		(end -3.65 2.15)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "dee7976d-0d32-4dcd-9b66-400bcc532323")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 6 180)
+		(layer "F.Fab")
+		(uuid "d1c9db53-0a20-4e80-b592-3aec5c14b88c")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -3.12 0)
+		(size 2.37 2.43)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "26915b2f-4dc4-4436-9631-b9f1ee733240")
+	)
+	(pad "2" smd rect
+		(at 3.12 0)
+		(size 2.37 2.43)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "496a8ea4-c905-448e-9877-ea10e410b734")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/Libraries/3D/T521X336M050ATE050.stp"
+		(offset
+			(xyz 3.625 2.3 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 180)
+		)
+	)
+)

@@ -1,0 +1,292 @@
+(footprint "[D] Wurth Elektronik 150040RS73240"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "2.4 V Red LED 1005 (0402)  SMD, Wurth Elektronik WL-SMCC 150040RS73240")
+	(tags "2.4 V Red LED 1005 (0402)  SMD, Wurth Elektronik WL-SMCC 150040RS73240")
+	(property "Reference" "REF**"
+		(at 1.75 0 180)
+		(layer "F.SilkS")
+		(uuid "69de2484-764b-4e2b-bdf9-74b164d5f544")
+		(effects
+			(font
+				(size 0.762 0.762)
+				(thickness 0.1905)
+				(bold yes)
+			)
+		)
+	)
+	(property "Value" "150040RS73240"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "646298bc-b51e-4cb2-bcd6-980f37d22508")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Datasheet" "https://katalog.we-online.de/pbs/datasheet/150040RS73240.pdf"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5595dfab-6ed6-4776-af55-767450a76880")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Fault LED"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "28b0bb8f-e7b9-44ce-b48b-c01eccf0f26c")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Height" "0.5"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "db04e18a-4b43-4c43-a21b-64a8c647f793")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Mouser Part Number" "710-150040RS73240"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7cd8d0d8-db76-4b12-a476-d75e01488566")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Wurth-Elektronik/150040RS73240?qs=8Aam6%252B7C6HGMiInmnlrBiw%3D%3D"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "422bffd6-5d5f-44e2-97e5-5fbc78d3b6f8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer_Name" "Wurth Elektronik"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f2005c7f-012f-47fe-9b8d-018984186705")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer_Part_Number" "150040RS73240"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "94dfb2dd-cd4e-415a-b36e-58919956d9e9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Spec" "0402 630nm"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "59a198f5-3540-470c-85b5-885bb4a3fc5a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -1.2 0)
+		(end -1.2 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "455ccf8d-cc9b-4b2c-9a4d-23388bfe594d")
+	)
+	(fp_line
+		(start -1.1 0)
+		(end -1.1 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "08dc8cbd-9f03-4e60-85df-0f49c46257ab")
+	)
+	(fp_arc
+		(start -1.2 0)
+		(mid -1.15 -0.05)
+		(end -1.1 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "4f8d10dd-947c-41b1-98a7-dd801b52a74c")
+	)
+	(fp_arc
+		(start -1.1 0)
+		(mid -1.15 0.05)
+		(end -1.2 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "8fbee21a-21b0-4b12-92e0-1a42728344e4")
+	)
+	(fp_line
+		(start -1.4 -0.9)
+		(end 1.4 -0.9)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "6ece4531-6d28-4162-8c8f-f068d88cf36d")
+	)
+	(fp_line
+		(start -1.4 0.8)
+		(end -1.4 -0.9)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "660a0fa0-9643-4a75-8536-2abff75818a7")
+	)
+	(fp_line
+		(start 1.4 -0.9)
+		(end 1.4 0.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "3d4f0911-5194-49b4-a100-2fd86dff6929")
+	)
+	(fp_line
+		(start 1.4 0.8)
+		(end -1.4 0.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "3bc9a347-c633-4e4a-8171-9af29955eb48")
+	)
+	(fp_line
+		(start -0.5 -0.25)
+		(end 0.5 -0.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "0f16623f-0ec6-4463-860d-af4c2151ac27")
+	)
+	(fp_line
+		(start -0.5 0.25)
+		(end -0.5 -0.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "4c9087ab-8c75-4556-be65-146397670f19")
+	)
+	(fp_line
+		(start 0.5 -0.25)
+		(end 0.5 0.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "b9bc6286-112f-4bd6-a122-5ba4ca44bece")
+	)
+	(fp_line
+		(start 0.5 0.25)
+		(end -0.5 0.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "1a0d93bd-1b98-4717-b1ae-d16428ad4c13")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(layer "F.Fab")
+		(uuid "491138d7-8846-4694-b8ea-0a0fc2d4275c")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -0.55 0 90)
+		(size 0.6 0.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "14cf398a-08d3-4bb4-bd11-4822d3eacfac")
+	)
+	(pad "2" smd rect
+		(at 0.55 0 90)
+		(size 0.6 0.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "00ffff96-9fc0-4c11-81a6-f3b425532c3f")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/Libraries/3D/150040RS73240.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
