@@ -8,3 +8,5 @@
 **/.private/
 **/.obsidian/
 **/KiCAD Project/*-backups/
+**/KiCAD Project/#auto_saved_files#
+../KiCAD Project/*.lck
