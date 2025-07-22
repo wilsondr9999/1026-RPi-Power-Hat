@@ -907,7 +907,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "1026-3D:[J] Samtec ESW-120-33-G-D"
+		(symbol "1026-3D:[J] Samtec ESW-120-34-G-D"
 			(pin_names
 				(offset 1.016)
 			)
@@ -915,7 +915,7 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "J"
-				(at -1.27 31.75 0)
+				(at -1.524 32.258 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -923,8 +923,8 @@
 					(justify left bottom)
 				)
 			)
-			(property "Value" "ESW-120-33-G-D"
-				(at -8.89 29.21 0)
+			(property "Value" "ESW-120-34-G-D"
+				(at -9.652 29.21 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -932,8 +932,8 @@
 					(justify left bottom)
 				)
 			)
-			(property "Footprint" "DW_Connectors:[J] Samtec Elevated Socket Strip ESW-120-33-G-D"
-				(at 0 -49.53 0)
+			(property "Footprint" "1026-3D:[J] Samtec Elevated Socket Strip ESW-120-34-G-D"
+				(at 0.762 -31.242 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -943,7 +943,7 @@
 				)
 			)
 			(property "Datasheet" "https://www.mouser.com/datasheet/2/527/esw_th-2854089.pdf"
-				(at 0 -30.48 0)
+				(at 1.524 -28.194 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -951,8 +951,8 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Elevated Socket Strip 0.1in 20x2 16.13mmH Gold"
-				(at 0 -33.02 0)
+			(property "Description" "Elevated Socket Strip 0.28in 20x2 16.13mmH Gold"
+				(at 2.032 -32.766 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -961,7 +961,7 @@
 				)
 			)
 			(property "Height" "16.13"
-				(at 0 -40.64 0)
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -970,7 +970,7 @@
 				)
 			)
 			(property "Manufacturer_Name" "Samtec"
-				(at 0 -45.72 0)
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -978,8 +978,8 @@
 					(hide yes)
 				)
 			)
-			(property "Manufacturer_Part_Number" "ESW-120-33-G-D"
-				(at 0 -38.1 0)
+			(property "Manufacturer_Part_Number" "ESW-120-34-G-D"
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -987,8 +987,8 @@
 					(hide yes)
 				)
 			)
-			(property "Mouser Part Number" "200-ESW12033GD"
-				(at 0 -35.56 0)
+			(property "Mouser Part Number" "200-ESW12034GD"
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -996,8 +996,8 @@
 					(hide yes)
 				)
 			)
-			(property "Mouser Price/Stock" "https://www.mouser.com/ProductDetail/Samtec/ESW-120-33-G-D?qs=0lQeLiL1qybGjRGIrteP4Q%3D%3D"
-				(at 0 -27.94 0)
+			(property "Mouser Price/Stock" "https://www.mouser.com/ProductDetail/Samtec/ESW-120-34-G-D?qs=0lQeLiL1qyZhSkNUS%2FXSIA%3D%3D"
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1005,8 +1005,8 @@
 					(hide yes)
 				)
 			)
-			(property "Spec" "20x2 0.1\" Header"
-				(at 0 -43.18 0)
+			(property "Spec" "20x2 0.28\" Header"
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1023,7 +1023,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "[J] Samtec ESW-120-33-G-D_0_0"
+			(symbol "[J] Samtec ESW-120-34-G-D_0_0"
 				(rectangle
 					(start -7.62 -25.4)
 					(end 7.62 27.94)
@@ -3570,7 +3570,7 @@
 		)
 	)
 	(symbol
-		(lib_id "1026-3D:[J] Samtec ESW-120-33-G-D")
+		(lib_id "1026-3D:[J] Samtec ESW-120-34-G-D")
 		(at 180.34 101.6 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3580,23 +3580,23 @@
 		(fields_autoplaced yes)
 		(uuid "bfe70dcd-8f2c-4505-a2dc-c6ebdd0dd81d")
 		(property "Reference" "J3"
-			(at 180.34 69.5155 0)
+			(at 180.34 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "ESW-120-33-G-D"
-			(at 180.34 71.9398 0)
+		(property "Value" "ESW-120-34-G-D"
+			(at 180.34 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "1026-3D:[J] Samtec Elevated Socket Strip ESW-120-33-G-D"
-			(at 180.34 151.13 0)
+		(property "Footprint" "1026-3D:[J] Samtec Elevated Socket Strip ESW-120-34-G-D"
+			(at 181.102 132.842 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3606,7 +3606,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.mouser.com/datasheet/2/527/esw_th-2854089.pdf"
-			(at 180.34 132.08 0)
+			(at 181.864 129.794 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3614,8 +3614,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Elevated Socket Strip 0.1in 20x2 16.13mmH Gold"
-			(at 180.34 134.62 0)
+		(property "Description" "Elevated Socket Strip 0.28in 20x2 16.13mmH Gold"
+			(at 182.372 134.366 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3624,7 +3624,7 @@
 			)
 		)
 		(property "Height" "16.13"
-			(at 180.34 142.24 0)
+			(at 180.34 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3633,7 +3633,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Samtec"
-			(at 180.34 147.32 0)
+			(at 180.34 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3641,8 +3641,8 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "ESW-120-33-G-D"
-			(at 180.34 139.7 0)
+		(property "Manufacturer_Part_Number" "ESW-120-34-G-D"
+			(at 180.34 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3650,8 +3650,8 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "200-ESW12033GD"
-			(at 180.34 137.16 0)
+		(property "Mouser Part Number" "200-ESW12034GD"
+			(at 180.34 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3659,8 +3659,8 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Price/Stock" "https://www.mouser.com/ProductDetail/Samtec/ESW-120-33-G-D?qs=0lQeLiL1qybGjRGIrteP4Q%3D%3D"
-			(at 180.34 129.54 0)
+		(property "Mouser Price/Stock" "https://www.mouser.com/ProductDetail/Samtec/ESW-120-34-G-D?qs=0lQeLiL1qyZhSkNUS%2FXSIA%3D%3D"
+			(at 180.34 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3668,8 +3668,8 @@
 				(hide yes)
 			)
 		)
-		(property "Spec" "20x2 0.1\" Header"
-			(at 180.34 144.78 0)
+		(property "Spec" "20x2 0.28\" Header"
+			(at 180.34 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
