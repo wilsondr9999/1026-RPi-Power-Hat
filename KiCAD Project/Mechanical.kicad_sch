@@ -12,7 +12,7 @@
 		(comment 1 "Copyright © 2025 Dan Wilson")
 	)
 	(lib_symbols
-		(symbol "DW_Mechanical:DW_PCB_Logo"
+		(symbol "1026-3D:DW_PCB_Logo"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -74,7 +74,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "DW_Mechanical:Fiducial 1mm-3mm"
+		(symbol "1026-3D:Fiducial 1mm-3mm"
 			(exclude_from_sim yes)
 			(in_bom no)
 			(on_board yes)
@@ -154,7 +154,90 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "DW_Mechanical:OSHW_Logo"
+		(symbol "1026-3D:MountingHole"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "H"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MountingHole"
+				(at 0 3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Mounting Hole without connection"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "mounting hole"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "MountingHole*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MountingHole_0_1"
+				(circle
+					(center 0 0)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "1026-3D:OSHW_Logo"
 			(pin_names
 				(offset 1.016)
 			)
@@ -635,7 +718,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "DW_Mechanical:[G] Raspberry Pi HAT+ Designator"
+		(symbol "1026-3D:[G] Raspberry Pi HAT+ Designator"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -706,92 +789,9 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Mechanical:MountingHole"
-			(pin_names
-				(offset 1.016)
-			)
-			(exclude_from_sim no)
-			(in_bom no)
-			(on_board yes)
-			(property "Reference" "H"
-				(at 0 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "MountingHole"
-				(at 0 3.175 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Mounting Hole without connection"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "mounting hole"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "MountingHole*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "MountingHole_0_1"
-				(circle
-					(center 0 0)
-					(radius 1.27)
-					(stroke
-						(width 1.27)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 	)
 	(symbol
-		(lib_id "DW_Mechanical:DW_PCB_Logo")
+		(lib_id "1026-3D:DW_PCB_Logo")
 		(at 132.08 91.44 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -818,7 +818,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "DW_Mechanical:DW_PCB_Logo"
+		(property "Footprint" "1026-3D:DW_PCB_Logo"
 			(at 132.08 91.44 0)
 			(effects
 				(font
@@ -855,7 +855,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Mechanical:MountingHole")
+		(lib_id "1026-3D:MountingHole")
 		(at 101.6 88.9 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -882,7 +882,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "DW_Mechanical:[MH] MountingHole_2.7mm_M2.5"
+		(property "Footprint" "1026-3D:[MH] MountingHole_2.7mm_M2.5"
 			(at 101.6 88.9 0)
 			(effects
 				(font
@@ -919,7 +919,7 @@
 		)
 	)
 	(symbol
-		(lib_id "DW_Mechanical:Fiducial 1mm-3mm")
+		(lib_id "1026-3D:Fiducial 1mm-3mm")
 		(at 132.08 102.87 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -946,7 +946,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Fiducial:Fiducial_1mm_Mask2mm"
+		(property "Footprint" "1026-3D:Fiducial_1mm_Mask2mm"
 			(at 132.08 102.87 0)
 			(effects
 				(font
@@ -983,7 +983,7 @@
 		)
 	)
 	(symbol
-		(lib_id "DW_Mechanical:OSHW_Logo")
+		(lib_id "1026-3D:OSHW_Logo")
 		(at 165.1 101.6 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -1010,7 +1010,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "DW_Mechanical:OSHW_Logo"
+		(property "Footprint" "1026-3D:OSHW_Logo"
 			(at 165.1 101.6 0)
 			(effects
 				(font
@@ -1047,7 +1047,7 @@
 		)
 	)
 	(symbol
-		(lib_id "DW_Mechanical:[G] Raspberry Pi HAT+ Designator")
+		(lib_id "1026-3D:[G] Raspberry Pi HAT+ Designator")
 		(at 132.08 83.82 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -1074,7 +1074,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "DW_Mechanical:[G] RPi HAT+ Designator"
+		(property "Footprint" "1026-3D:[G] RPi HAT+ Designator"
 			(at 132.08 91.44 0)
 			(effects
 				(font
@@ -1111,7 +1111,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Mechanical:MountingHole")
+		(lib_id "1026-3D:MountingHole")
 		(at 101.6 95.25 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -1138,7 +1138,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "DW_Mechanical:[MH] MountingHole_2.7mm_M2.5_StencilRegHole"
+		(property "Footprint" "1026-3D:[MH] MountingHole_2.7mm_M2.5_StencilRegHole"
 			(at 101.6 95.25 0)
 			(effects
 				(font
@@ -1175,7 +1175,7 @@
 		)
 	)
 	(symbol
-		(lib_id "DW_Mechanical:OSHW_Logo")
+		(lib_id "1026-3D:OSHW_Logo")
 		(at 165.1 91.44 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -1202,7 +1202,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "DW_Mechanical:OSHW_Logo"
+		(property "Footprint" "1026-3D:OSHW_Logo"
 			(at 165.1 91.44 0)
 			(effects
 				(font
@@ -1239,7 +1239,7 @@
 		)
 	)
 	(symbol
-		(lib_id "DW_Mechanical:Fiducial 1mm-3mm")
+		(lib_id "1026-3D:Fiducial 1mm-3mm")
 		(at 132.08 97.79 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -1266,7 +1266,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Fiducial:Fiducial_1mm_Mask2mm"
+		(property "Footprint" "1026-3D:Fiducial_1mm_Mask2mm"
 			(at 132.08 97.79 0)
 			(effects
 				(font
@@ -1303,7 +1303,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Mechanical:MountingHole")
+		(lib_id "1026-3D:MountingHole")
 		(at 101.6 107.95 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -1330,7 +1330,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "DW_Mechanical:[MH] MountingHole_2.7mm_M2.5"
+		(property "Footprint" "1026-3D:[MH] MountingHole_2.7mm_M2.5"
 			(at 101.6 107.95 0)
 			(effects
 				(font
@@ -1367,7 +1367,7 @@
 		)
 	)
 	(symbol
-		(lib_id "DW_Mechanical:Fiducial 1mm-3mm")
+		(lib_id "1026-3D:Fiducial 1mm-3mm")
 		(at 132.08 107.95 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -1394,7 +1394,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Fiducial:Fiducial_1mm_Mask2mm"
+		(property "Footprint" "1026-3D:Fiducial_1mm_Mask2mm"
 			(at 132.08 107.95 0)
 			(effects
 				(font
@@ -1431,7 +1431,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Mechanical:MountingHole")
+		(lib_id "1026-3D:MountingHole")
 		(at 101.6 101.6 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -1458,7 +1458,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "DW_Mechanical:[MH] MountingHole_2.7mm_M2.5_StencilRegHole"
+		(property "Footprint" "1026-3D:[MH] MountingHole_2.7mm_M2.5_StencilRegHole"
 			(at 101.6 101.6 0)
 			(effects
 				(font

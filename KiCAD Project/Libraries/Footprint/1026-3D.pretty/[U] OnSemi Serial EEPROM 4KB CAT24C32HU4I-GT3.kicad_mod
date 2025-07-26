@@ -1,0 +1,313 @@
+(footprint "[U] OnSemi Serial EEPROM 4KB CAT24C32HU4I-GT3"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Supports Standard, Fast and Fast-Plus I2C Protocol; 1.7 V to 5.5 V Supply Voltage Range; 32-Byte Page Write Buffer; Hardware Write Protection for entire memory; Schmitt Triggers and Noise Suppression Filters on IC Bus Inputs (SCL and SDA); Low power CMOS technology; 1,000,000 program/erase cycles; 100 year data retention; 8-lead SOIC and TSSOP, WLCSP 4 and 5-ball and 8-pad UDFN packages; Industrial temperature range; This Device is PbFree, Halogen Free/BFR Free, and RoHS Compliant")
+	(tags "Supports Standard, Fast and Fast-Plus I2C Protocol; 1.7 V to 5.5 V Supply Voltage Range; 32-Byte Page Write Buffer; Hardware Write Protection for entire memory; Schmitt Triggers and Noise Suppression Filters on IC Bus Inputs (SCL and SDA); Low power CMOS technology; 1,000,000 program/erase cycles; 100 year data retention; 8-lead SOIC and TSSOP, WLCSP 4 and 5-ball and 8-pad UDFN packages; Industrial temperature range; This Device is PbFree, Halogen Free/BFR Free, and RoHS Compliant")
+	(property "Reference" "REF**"
+		(at -1.5 1.75 0)
+		(layer "F.SilkS")
+		(uuid "b1a6286a-3405-4516-946f-2135211fb8b3")
+		(effects
+			(font
+				(size 0.762 0.762)
+				(thickness 0.1905)
+				(bold yes)
+			)
+		)
+	)
+	(property "Value" "CAT24C32HU4I-GT3"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "b8fb0af2-b157-4212-9675-3967cdf66a8f")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.onsemi.com/download/data-sheet/pdf/cat24c32-d.pdf"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3323b179-81cf-4651-ba11-b3714d024d14")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Supports Standard, Fast and Fast-Plus I2C Protocol; 1.7 V to 5.5 V Supply Voltage Range; 32-Byte Page Write Buffer; Hardware Write Protection for entire memory; Schmitt Triggers and Noise Suppression Filters on IC Bus Inputs (SCL and SDA); Low power CMOS technology; 1,000,000 program/erase cycles; 100 year data retention; 8-lead SOIC and TSSOP, WLCSP 4 and 5-ball and 8-pad UDFN packages; Industrial temperature range; This Device is PbFree, Halogen Free/BFR Free, and RoHS Compliant"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "522a0f95-dcf2-4a27-aafe-55e8e458c10f")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Height" "0.55"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1feb9c5e-09c4-424f-b23b-714d20cdb733")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Mouser Part Number" "863-CAT24C32HU4I-GT3"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a7b51bbc-2d69-44d2-9d8e-dcea7b8e0fd8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Mouser Price/Stock" "https://www.mouser.com/ProductDetail/onsemi/CAT24C32HU4I-GT3?qs=2mdvTlUeTfA3f6AaECTBOg%3D%3D"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "58eb6837-9144-40ab-839d-135063dc07ae")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer_Name" "OnSemi"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b87e61c0-28ae-4d57-bb4a-8e6d959ceb67")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer_Part_Number" "CAT24C32HU4I-GT3"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "11ba77ff-7cf7-4f15-810b-2137dfa9bd90")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Spec" "CAT24C32HU4I-GT3"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2697f305-24dd-487f-8085-bef7946c2eec")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_circle
+		(center -1.875 -1.4)
+		(end -1.875 -1.275)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "7880a0af-c4fb-449d-89fb-ae3056e2fc06")
+	)
+	(fp_line
+		(start -2.125 -1.25)
+		(end 2.125 -1.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "10ecf82e-edd3-43de-a18f-f222c87de813")
+	)
+	(fp_line
+		(start -2.125 1.25)
+		(end -2.125 -1.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "d69f56ff-d0bc-4841-aae4-c33bffcdad08")
+	)
+	(fp_line
+		(start 2.125 -1.25)
+		(end 2.125 1.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "49889ba5-3071-4910-bbc5-555a83040dd0")
+	)
+	(fp_line
+		(start 2.125 1.25)
+		(end -2.125 1.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "68062c84-bfaa-42a0-97ca-45b76083d0f7")
+	)
+	(fp_line
+		(start -1.5 -1)
+		(end 1.5 -1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "e0117702-f7ed-4809-a397-dab70eb4a652")
+	)
+	(fp_line
+		(start -1.5 -0.25)
+		(end -0.75 -1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "a727f313-e848-484a-a8f5-1560a4c1e81f")
+	)
+	(fp_line
+		(start -1.5 1)
+		(end -1.5 -1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "52d68f81-c27a-4d68-84ed-145eac1bfe9a")
+	)
+	(fp_line
+		(start 1.5 -1)
+		(end 1.5 1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "2ed8256b-3b30-4d05-a4ae-f3d390db050d")
+	)
+	(fp_line
+		(start 1.5 1)
+		(end -1.5 1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "0c6eeb5d-428b-46d1-b581-f48435e117e7")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(layer "F.Fab")
+		(uuid "c4f9f63d-74e7-4e9a-97cd-775f85c55adb")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -1.5 -0.75 90)
+		(size 0.3 0.75)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "edb2c0cb-c460-4330-8091-3d55a8d6bc70")
+	)
+	(pad "2" smd rect
+		(at -1.5 -0.25 90)
+		(size 0.3 0.75)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "48c7cd1b-f8ec-4c07-9993-5fe5485aa25b")
+	)
+	(pad "3" smd rect
+		(at -1.5 0.25 90)
+		(size 0.3 0.75)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "2116c768-e376-45a2-b3f5-56d667a4c493")
+	)
+	(pad "4" smd rect
+		(at -1.5 0.75 90)
+		(size 0.3 0.75)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "9ea7dc85-d200-4257-9d04-e1b87c5efbfd")
+	)
+	(pad "5" smd rect
+		(at 1.5 0.75 90)
+		(size 0.3 0.75)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "09212fc0-ab15-46a3-80b5-60ad5236f170")
+	)
+	(pad "6" smd rect
+		(at 1.5 0.25 90)
+		(size 0.3 0.75)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "8f1f5717-fbb0-4b57-a9c1-35e3fbf5e980")
+	)
+	(pad "7" smd rect
+		(at 1.5 -0.25 90)
+		(size 0.3 0.75)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "80b4d44e-0df5-44f1-8725-c8bb8a30ca04")
+	)
+	(pad "8" smd rect
+		(at 1.5 -0.75 90)
+		(size 0.3 0.75)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "110f3b68-b8c0-43db-9572-340c23bbb64f")
+	)
+	(pad "9" smd rect
+		(at 0 0)
+		(size 1.35 1.45)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "0d22f8be-78d2-47d3-bc42-2be76981b88a")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/Libraries/3D/CAT24C32HU4I-GT3.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

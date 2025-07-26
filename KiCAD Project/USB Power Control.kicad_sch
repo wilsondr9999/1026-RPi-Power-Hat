@@ -13,7 +13,521 @@
 		(comment 4 "USB Power Control")
 	)
 	(lib_symbols
-		(symbol "DW_Passives:[C] Kyocera AVX Tant Poly TCJB157M006R0070"
+		(symbol "1026-3D:C"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0.635 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C"
+				(at 0.635 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0.9652 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Unpolarized capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "cap capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "C_0_1"
+				(polyline
+					(pts
+						(xy -2.032 0.762) (xy 2.032 0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "1026-3D:GND"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GND_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "1026-3D:PWR_FLAG"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#FLG"
+				(at 0 1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "PWR_FLAG"
+				(at 0 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Special symbol for telling ERC where power comes from"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "flag power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "PWR_FLAG_0_0"
+				(pin power_out line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 1.27) (xy -1.016 1.905) (xy 0 2.54) (xy 1.016 1.905) (xy 0 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "1026-3D:R_US"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 2.54 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R_US"
+				(at -2.54 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 1.016 -0.254 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor, US symbol"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_US_0_1"
+				(polyline
+					(pts
+						(xy 0 2.286) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.286) (xy 1.016 1.905) (xy 0 1.524) (xy -1.016 1.143) (xy 0 0.762)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0.762) (xy 1.016 0.381) (xy 0 0) (xy -1.016 -0.381) (xy 0 -0.762)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -0.762) (xy 1.016 -1.143) (xy 0 -1.524) (xy -1.016 -1.905) (xy 0 -2.286)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -2.286) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_US_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "1026-3D:[C] Kyocera AVX Tant Poly TCJB157M006R0070"
 			(pin_names
 				(hide yes)
 			)
@@ -246,7 +760,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "DW_Passives:[FB] Murata BLM18KG221SN1D 220ohm 2.2A"
+		(symbol "1026-3D:[FB] Murata BLM18KG221SN1D 220ohm 2.2A"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -407,7 +921,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "DW_Semiconductors:[Y] ECS Clock Osc 24Mhz ECS-2520MV-240-BL-TR"
+		(symbol "1026-3D:[Y] ECS Clock Osc 24Mhz ECS-2520MV-240-BL-TR"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -587,318 +1101,6 @@
 					(at 38.1 -2.54 180)
 					(length 5.08)
 					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Device:C"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0.254)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "C"
-				(at 0.635 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "C"
-				(at 0.635 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at 0.9652 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Unpolarized capacitor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "cap capacitor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "C_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "C_0_1"
-				(polyline
-					(pts
-						(xy -2.032 0.762) (xy 2.032 0.762)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.032 -0.762) (xy 2.032 -0.762)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "C_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 2.794)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 2.794)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Device:R_US"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "R"
-				(at 2.54 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "R_US"
-				(at -2.54 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 1.016 -0.254 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Resistor, US symbol"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "R res resistor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "R_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "R_US_0_1"
-				(polyline
-					(pts
-						(xy 0 2.286) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.286) (xy 1.016 1.905) (xy 0 1.524) (xy -1.016 1.143) (xy 0 0.762)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0.762) (xy 1.016 0.381) (xy 0 0) (xy -1.016 -0.381) (xy 0 -0.762)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -0.762) (xy 1.016 -1.143) (xy 0 -1.524) (xy -1.016 -1.905) (xy 0 -2.286)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -2.286) (xy 0 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "R_US_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 1.27)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 1.27)
-					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1232,208 +1434,6 @@
 								(size 1.27 1.27)
 							)
 						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "power:GND"
-			(power)
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 -6.35 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "GND"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "GND_0_1"
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "GND_1_1"
-				(pin power_in line
-					(at 0 0 270)
-					(length 0)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "power:PWR_FLAG"
-			(power)
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#FLG"
-				(at 0 1.905 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "PWR_FLAG"
-				(at 0 3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Special symbol for telling ERC where power comes from"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "flag power"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "PWR_FLAG_0_0"
-				(pin power_out line
-					(at 0 0 90)
-					(length 0)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "PWR_FLAG_0_1"
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 1.27) (xy -1.016 1.905) (xy 0 2.54) (xy 1.016 1.905) (xy 0 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
 					)
 				)
 			)
@@ -3326,7 +3326,7 @@
 	)
 	(symbol
 		(lib_name "[U] TI USB Power Ctlr TPS2561DRCR_1")
-		(lib_id "DW_Semiconductors:[U] TI USB Power Ctlr TPS2561DRCR")
+		(lib_id "1026-3D:[U] TI USB Power Ctlr TPS2561DRCR_1")
 		(at 96.52 27.94 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3351,7 +3351,7 @@
 				)
 			)
 		)
-		(property "Footprint" "DW_Semiconductors:[U] TI USB Power Ctlr TPS2561DRCR"
+		(property "Footprint" "1026-3D:[U] TI USB Power Ctlr TPS2561DRCR"
 			(at 128.27 122.86 0)
 			(effects
 				(font
@@ -3482,7 +3482,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:PWR_FLAG")
+		(lib_id "1026-3D:PWR_FLAG")
 		(at 222.25 91.44 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3548,7 +3548,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
+		(lib_id "1026-3D:C")
 		(at 50.8 34.29 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3575,7 +3575,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "1026-3D:C_0402_1005Metric"
 			(at 49.8348 30.48 0)
 			(effects
 				(font
@@ -3672,7 +3672,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
+		(lib_id "1026-3D:C")
 		(at 167.64 110.49 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3699,7 +3699,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "1026-3D:C_0402_1005Metric"
 			(at 166.6748 106.68 0)
 			(effects
 				(font
@@ -3796,7 +3796,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
+		(lib_id "1026-3D:GND")
 		(at 109.22 129.54 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3862,7 +3862,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:PWR_FLAG")
+		(lib_id "1026-3D:PWR_FLAG")
 		(at 222.25 27.94 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3928,7 +3928,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
+		(lib_id "1026-3D:C")
 		(at 142.24 110.49 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3955,7 +3955,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "1026-3D:C_0402_1005Metric"
 			(at 141.2748 106.68 0)
 			(effects
 				(font
@@ -4052,7 +4052,7 @@
 		)
 	)
 	(symbol
-		(lib_id "DW_Passives:[C] Kyocera AVX Tant Poly TCJB157M006R0070")
+		(lib_id "1026-3D:[C] Kyocera AVX Tant Poly TCJB157M006R0070")
 		(at 179.07 40.64 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4079,7 +4079,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "DW_Passives:[C] Kyocera AVC Tant Poly TCJB157M006R0070"
+		(property "Footprint" "1026-3D:[C] Kyocera AVC Tant Poly TCJB157M006R0070"
 			(at 82.88 49.53 0)
 			(effects
 				(font
@@ -4182,7 +4182,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_US")
+		(lib_id "1026-3D:R_US")
 		(at 118.11 57.15 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4209,7 +4209,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "1026-3D:R_0402_1005Metric"
 			(at 119.126 57.404 90)
 			(effects
 				(font
@@ -4306,7 +4306,7 @@
 		)
 	)
 	(symbol
-		(lib_id "DW_Passives:[FB] Murata BLM18KG221SN1D 220ohm 2.2A")
+		(lib_id "1026-3D:[FB] Murata BLM18KG221SN1D 220ohm 2.2A")
 		(at 195.58 93.98 0)
 		(mirror x)
 		(unit 1)
@@ -4332,7 +4332,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "DW_Passives:[FB] Murata BLM18KG221SN1D 220ohm 2.2A"
+		(property "Footprint" "1026-3D:[FB] Murata BLM18KG221SN1D 220ohm 2.2A"
 			(at 212.09 -0.94 0)
 			(effects
 				(font
@@ -4435,7 +4435,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
+		(lib_id "1026-3D:C")
 		(at 228.6 46.99 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4462,7 +4462,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "1026-3D:C_0402_1005Metric"
 			(at 227.6348 43.18 0)
 			(effects
 				(font
@@ -4559,7 +4559,7 @@
 		)
 	)
 	(symbol
-		(lib_id "DW_Passives:[FB] Murata BLM18KG221SN1D 220ohm 2.2A")
+		(lib_id "1026-3D:[FB] Murata BLM18KG221SN1D 220ohm 2.2A")
 		(at 195.58 30.48 0)
 		(mirror x)
 		(unit 1)
@@ -4585,7 +4585,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "DW_Passives:[FB] Murata BLM18KG221SN1D 220ohm 2.2A"
+		(property "Footprint" "1026-3D:[FB] Murata BLM18KG221SN1D 220ohm 2.2A"
 			(at 212.09 -64.44 0)
 			(effects
 				(font
@@ -4688,7 +4688,7 @@
 		)
 	)
 	(symbol
-		(lib_id "DW_Passives:[C] Kyocera AVX Tant Poly TCJB157M006R0070")
+		(lib_id "1026-3D:[C] Kyocera AVX Tant Poly TCJB157M006R0070")
 		(at 154.94 104.14 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4715,7 +4715,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "DW_Passives:[C] Kyocera AVC Tant Poly TCJB157M006R0070"
+		(property "Footprint" "1026-3D:[C] Kyocera AVC Tant Poly TCJB157M006R0070"
 			(at 58.75 113.03 0)
 			(effects
 				(font
@@ -4818,7 +4818,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:PWR_FLAG")
+		(lib_id "1026-3D:PWR_FLAG")
 		(at 222.25 93.98 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4884,7 +4884,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
+		(lib_id "1026-3D:GND")
 		(at 109.22 66.04 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4950,7 +4950,7 @@
 		)
 	)
 	(symbol
-		(lib_id "DW_Passives:[FB] Murata BLM18KG221SN1D 220ohm 2.2A")
+		(lib_id "1026-3D:[FB] Murata BLM18KG221SN1D 220ohm 2.2A")
 		(at 195.58 27.94 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4975,7 +4975,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "DW_Passives:[FB] Murata BLM18KG221SN1D 220ohm 2.2A"
+		(property "Footprint" "1026-3D:[FB] Murata BLM18KG221SN1D 220ohm 2.2A"
 			(at 212.09 122.86 0)
 			(effects
 				(font
@@ -5078,7 +5078,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
+		(lib_id "1026-3D:C")
 		(at 167.64 46.99 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5105,7 +5105,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "1026-3D:C_0402_1005Metric"
 			(at 166.6748 43.18 0)
 			(effects
 				(font
@@ -5202,7 +5202,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
+		(lib_id "1026-3D:C")
 		(at 215.9 110.49 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5229,7 +5229,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "1026-3D:C_0402_1005Metric"
 			(at 214.9348 106.68 0)
 			(effects
 				(font
@@ -5326,7 +5326,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
+		(lib_id "1026-3D:C")
 		(at 228.6 110.49 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5353,7 +5353,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "1026-3D:C_0402_1005Metric"
 			(at 227.6348 106.68 0)
 			(effects
 				(font
@@ -5450,7 +5450,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
+		(lib_id "1026-3D:C")
 		(at 50.8 97.79 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5477,7 +5477,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "1026-3D:C_0402_1005Metric"
 			(at 49.8348 93.98 0)
 			(effects
 				(font
@@ -5574,7 +5574,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
+		(lib_id "1026-3D:C")
 		(at 142.24 46.99 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5601,7 +5601,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "1026-3D:C_0402_1005Metric"
 			(at 141.2748 43.18 0)
 			(effects
 				(font
@@ -5698,7 +5698,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:PWR_FLAG")
+		(lib_id "1026-3D:PWR_FLAG")
 		(at 222.25 30.48 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5765,7 +5765,7 @@
 	)
 	(symbol
 		(lib_name "[U] TI USB Power Ctlr TPS2561DRCR_1")
-		(lib_id "DW_Semiconductors:[U] TI USB Power Ctlr TPS2561DRCR")
+		(lib_id "1026-3D:[U] TI USB Power Ctlr TPS2561DRCR_1")
 		(at 96.52 91.44 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5790,7 +5790,7 @@
 				)
 			)
 		)
-		(property "Footprint" "DW_Semiconductors:[U] TI USB Power Ctlr TPS2561DRCR"
+		(property "Footprint" "1026-3D:[U] TI USB Power Ctlr TPS2561DRCR"
 			(at 128.27 186.36 0)
 			(effects
 				(font
@@ -5921,7 +5921,7 @@
 		)
 	)
 	(symbol
-		(lib_id "DW_Passives:[C] Kyocera AVX Tant Poly TCJB157M006R0070")
+		(lib_id "1026-3D:[C] Kyocera AVX Tant Poly TCJB157M006R0070")
 		(at 154.94 40.64 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5948,7 +5948,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "DW_Passives:[C] Kyocera AVC Tant Poly TCJB157M006R0070"
+		(property "Footprint" "1026-3D:[C] Kyocera AVC Tant Poly TCJB157M006R0070"
 			(at 58.75 49.53 0)
 			(effects
 				(font
@@ -6051,7 +6051,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
+		(lib_id "1026-3D:GND")
 		(at 109.22 177.8 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6117,7 +6117,7 @@
 		)
 	)
 	(symbol
-		(lib_id "DW_Passives:[C] Kyocera AVX Tant Poly TCJB157M006R0070")
+		(lib_id "1026-3D:[C] Kyocera AVX Tant Poly TCJB157M006R0070")
 		(at 179.07 104.14 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6144,7 +6144,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "DW_Passives:[C] Kyocera AVC Tant Poly TCJB157M006R0070"
+		(property "Footprint" "1026-3D:[C] Kyocera AVC Tant Poly TCJB157M006R0070"
 			(at 82.88 113.03 0)
 			(effects
 				(font
@@ -6247,7 +6247,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_US")
+		(lib_id "1026-3D:R_US")
 		(at 118.11 120.65 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6274,7 +6274,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "1026-3D:R_0402_1005Metric"
 			(at 119.126 120.904 90)
 			(effects
 				(font
@@ -6371,7 +6371,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
+		(lib_id "1026-3D:C")
 		(at 76.2 165.1 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6398,7 +6398,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "1026-3D:C_0402_1005Metric"
 			(at 75.2348 161.29 0)
 			(effects
 				(font
@@ -6495,7 +6495,7 @@
 		)
 	)
 	(symbol
-		(lib_id "DW_Semiconductors:[Y] ECS Clock Osc 24Mhz ECS-2520MV-240-BL-TR")
+		(lib_id "1026-3D:[Y] ECS Clock Osc 24Mhz ECS-2520MV-240-BL-TR")
 		(at 96.52 154.94 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6520,7 +6520,7 @@
 				)
 			)
 		)
-		(property "Footprint" "DW_Semiconductors:[Y] ECS Clock Osc 24MHz ECS2520MV240BLTR"
+		(property "Footprint" "1026-3D:[Y] ECS Clock Osc 24MHz ECS2520MV240BLTR"
 			(at 130.81 249.86 0)
 			(effects
 				(font
@@ -6630,7 +6630,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
+		(lib_id "1026-3D:C")
 		(at 215.9 46.99 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6657,7 +6657,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "1026-3D:C_0402_1005Metric"
 			(at 214.9348 43.18 0)
 			(effects
 				(font
@@ -6754,7 +6754,7 @@
 		)
 	)
 	(symbol
-		(lib_id "DW_Passives:[FB] Murata BLM18KG221SN1D 220ohm 2.2A")
+		(lib_id "1026-3D:[FB] Murata BLM18KG221SN1D 220ohm 2.2A")
 		(at 195.58 91.44 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6779,7 +6779,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "DW_Passives:[FB] Murata BLM18KG221SN1D 220ohm 2.2A"
+		(property "Footprint" "1026-3D:[FB] Murata BLM18KG221SN1D 220ohm 2.2A"
 			(at 212.09 186.36 0)
 			(effects
 				(font

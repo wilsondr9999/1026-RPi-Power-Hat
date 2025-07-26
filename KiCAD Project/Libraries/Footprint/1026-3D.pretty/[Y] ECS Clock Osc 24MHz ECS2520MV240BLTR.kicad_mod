@@ -1,0 +1,304 @@
+(footprint "[Y] ECS Clock Osc 24MHz ECS2520MV240BLTR"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Standard Clock Oscillators 24.000 MHz Multi-Volt 1.6 3.6V +/-50 ppm -10 +70 C 4-SMD 2.5x2.0mm RoHS")
+	(tags "Standard Clock Oscillators 24.000 MHz Multi-Volt 1.6 3.6V +/-50 ppm -10 +70 C 4-SMD 2.5x2.0mm RoHS")
+	(property "Reference" "REF**"
+		(at 0 -2.12132 180)
+		(layer "F.SilkS")
+		(uuid "34aa6ae2-1dc8-4f93-9ad4-eba66844e79c")
+		(effects
+			(font
+				(size 0.762 0.762)
+				(thickness 0.1905)
+				(bold yes)
+			)
+		)
+	)
+	(property "Value" "ECS-2520MV-240-BL-TR"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "e0df7d19-4d51-4dfd-ab04-d18b604b70fa")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Datasheet" "https://ecsxtal.com/store/pdf/ECS-2520MV.pdf"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6db2ebf0-4f32-44d7-8aa7-a7853c838c8b")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Standard Clock Oscillators 24.000 MHz Multi-Volt 1.6 3.6V +/-50 ppm -10 +70 C 4-SMD 2.5x2.0mm RoHS"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ab9c8ebc-a85d-43a0-9f30-647a8477629d")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Height" "0.9"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "bcc55207-9c4d-41b4-a9c7-fa9b49f79939")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Mouser Part Number" "520-2520MV-240-BL-TR"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "eaafb8c2-67ca-40d2-a8cd-022ee94c8f55")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Mouser Price/Stock" "https://www.mouser.com/ProductDetail/ECS/ECS-2520MV-240-BL-TR?qs=DRkmTr78QAT9UStHJvO4kg%3D%3D"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "69146874-42c8-4f06-9b2b-8e92c8edc409")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer_Name" "ECS"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4c2b05cd-3943-4cea-8be7-34efe147e0be")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer_Part_Number" "ECS-2520MV-240-BL-TR"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f99e9af4-9ae1-476f-a6e5-da12a331cd04")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Spec" "ECS-2520MV-240-BL-TR"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d922bb84-5808-4ee6-ad9e-180ba2d73a39")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -1.65 1.35)
+		(end -1.65 1.35)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ef02b77f-41da-4587-8e2f-e9943279239e")
+	)
+	(fp_line
+		(start -1.65 1.45)
+		(end -1.65 1.45)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ddfa61d0-5d7e-473d-970e-12bd7bb83a79")
+	)
+	(fp_arc
+		(start -1.65 1.35)
+		(mid -1.6 1.4)
+		(end -1.65 1.45)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a796986f-865d-422c-8ded-0d11571ebb81")
+	)
+	(fp_arc
+		(start -1.65 1.45)
+		(mid -1.7 1.4)
+		(end -1.65 1.35)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c9091738-55d5-4446-9eee-c5a554c316d0")
+	)
+	(fp_line
+		(start -1.8 -1.5)
+		(end -1.8 1.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "6d84d99e-dec0-4420-be29-4a634f9bd791")
+	)
+	(fp_line
+		(start -1.8 1.5)
+		(end 1.8 1.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "f34a9494-8421-4306-9a69-6e907c34d2d0")
+	)
+	(fp_line
+		(start 1.8 -1.5)
+		(end -1.8 -1.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "a47b1a0e-5b10-4c63-8977-d123911d9333")
+	)
+	(fp_line
+		(start 1.8 1.5)
+		(end 1.8 -1.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "1a390090-904b-4531-af9c-10fbb427ec81")
+	)
+	(fp_line
+		(start -1.25 -1)
+		(end -1.25 1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "730aa2e6-417b-46d1-a21a-4198e2f562fa")
+	)
+	(fp_line
+		(start -1.25 1)
+		(end 1.25 1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "4065d4e5-d28a-409f-9e4c-274477358c5a")
+	)
+	(fp_line
+		(start 1.25 -1)
+		(end -1.25 -1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "bd74edf9-f0c7-4083-a765-d10df972d186")
+	)
+	(fp_line
+		(start 1.25 1)
+		(end 1.25 -1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "8476e788-b3b1-4fd7-a20d-5f6b132b5360")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 3.4 0)
+		(layer "F.Fab")
+		(uuid "0ff91889-2b3a-4c07-9432-dbad5ee398c3")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -0.925 0.725 90)
+		(size 0.8 0.9)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "311347e7-2fc8-4e0d-b16a-a886c264c1eb")
+	)
+	(pad "2" smd rect
+		(at 0.925 0.725 90)
+		(size 0.8 0.9)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "0f85b51a-660c-4cf4-8986-27cc988a9984")
+	)
+	(pad "3" smd rect
+		(at 0.925 -0.725 90)
+		(size 0.8 0.9)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "27d666ab-6191-47d6-bd71-6604f5fec698")
+	)
+	(pad "4" smd rect
+		(at -0.925 -0.725 90)
+		(size 0.8 0.9)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "a8e948ba-778e-47d1-b6ec-de7e23bd32fb")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/Libraries/3D/ECS-2520MV-240-BL-TR.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 0)
+		)
+	)
+)

@@ -1,0 +1,313 @@
+(footprint "[D] Wurth Elektronik 150040GS73220"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "WURTH ELEKTRONIK - 150040GS73220 - LED, Green, SMD, 0402, Rectangular, 3.3V/20mA Forward, 525nm, 750mcd, 120 Viewing Angle")
+	(tags "WURTH ELEKTRONIK - 150040GS73220 - LED, Green, SMD, 0402, Rectangular, 3.3V/20mA Forward, 525nm, 750mcd, 120 Viewing Angle")
+	(property "Reference" "REF**"
+		(at -2 0 270)
+		(layer "F.SilkS")
+		(uuid "7e895c4a-a55c-4d90-81da-5d96c5322b25")
+		(effects
+			(font
+				(size 0.762 0.762)
+				(thickness 0.1905)
+				(bold yes)
+			)
+		)
+	)
+	(property "Value" "150040GS73220"
+		(at -0.35 0 180)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "3e08eb02-85b2-4966-8284-691732909e4a")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.we-online.com/components/products/datasheet/150040GS73220.pdf"
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "77322e60-e0ca-4d8e-996d-9e4e030adbc8")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Input Power LED"
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "fa3bc54e-66ab-4850-8cdb-fccf066294e1")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Height" "0.35"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5de58313-b82f-4720-a376-275083c2411b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Mouser Part Number" "710-150040GS73220"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c4a63b12-1859-4122-9ba9-aaf9e1689fef")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Mouser Price/Stock" "https://www.mouser.com/ProductDetail/Wurth-Elektronik/150040GS73220?qs=u16ybLDytRZ9vktXLUK1Kg%3D%3D"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b3281df0-c379-4f4e-9bcc-a85095ed081d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer_Name" "Wurth Elektronik"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8a6116d7-5be6-430e-8341-0defb9cd1d25")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer_Part_Number" "150040GS73220"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f8477be7-8cf5-4c57-baf5-9d2f4239c94c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Spec" "0603 525nm"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "575bcc99-ecd1-46d7-a0e6-6685b065439d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -1.1 0)
+		(end -1.1 0)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "db9ded28-b8ad-40fd-8c54-bf05fce9b182")
+	)
+	(fp_line
+		(start -1 0)
+		(end -1 0)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "0f811fc6-2ff5-4a86-88ca-34f06448dad6")
+	)
+	(fp_line
+		(start -1 0)
+		(end -1 0)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "4978cb4d-f027-4ae9-9fbc-40a8370d32a9")
+	)
+	(fp_arc
+		(start -1.1 0)
+		(mid -1.05 -0.05)
+		(end -1 0)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "84827cbb-07e2-428f-aa59-4c66bcdcb29a")
+	)
+	(fp_arc
+		(start -1.1 0)
+		(mid -1.05 -0.05)
+		(end -1 0)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c31a7fd5-e587-4b6c-b2b6-4da05aac1def")
+	)
+	(fp_arc
+		(start -1 0)
+		(mid -1.05 0.05)
+		(end -1.1 0)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ca26f56d-9244-4cac-a297-e8ac69a4d576")
+	)
+	(fp_line
+		(start -1.5 -0.8)
+		(end 1.1 -0.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "785b475c-f4f0-4104-b48d-711043addbc3")
+	)
+	(fp_line
+		(start -1.5 0.7)
+		(end -1.5 -0.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "3d5c14cd-adcf-4eaa-9f63-6e6f340490a1")
+	)
+	(fp_line
+		(start 1.1 -0.8)
+		(end 1.1 0.7)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "58c32c76-de93-4014-89ca-51f4f4b1d54f")
+	)
+	(fp_line
+		(start 1.1 0.7)
+		(end -1.5 0.7)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "8fb8ada8-66cc-43ca-ba33-e85104b23d21")
+	)
+	(fp_line
+		(start -0.5 -0.25)
+		(end -0.5 0.25)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "95ad07fc-e90e-48f8-a14f-2d096f732a3b")
+	)
+	(fp_line
+		(start -0.5 0.25)
+		(end 0.5 0.25)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "b06704a2-70d2-4395-b2a0-e5b3c5bf6ac3")
+	)
+	(fp_line
+		(start 0.5 -0.25)
+		(end -0.5 -0.25)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "29932695-5129-40f5-990c-ab11e1f0a861")
+	)
+	(fp_line
+		(start 0.5 0.25)
+		(end 0.5 -0.25)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "5bbea34d-5300-47e9-9128-a8e04461202b")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.3 180)
+		(layer "F.Fab")
+		(uuid "b043b58d-1029-4da4-8967-b986395823c3")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -0.5 0)
+		(size 0.4 0.46)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "b957a20c-fcc1-41c5-8b5a-59f4c8ecbc94")
+	)
+	(pad "2" smd rect
+		(at 0.5 0)
+		(size 0.4 0.46)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "5c1c1b28-ba11-4b67-9432-861f663e9bfc")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/Libraries/3D/150040GS73220.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

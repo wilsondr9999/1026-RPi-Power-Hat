@@ -1,0 +1,400 @@
+(footprint "[J] GCT USB-B 2.0 Connector PCB USB1030-GF-P-B-B"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "USB Connectors USB B Skt, TH, GF, USB-B 2.0")
+	(tags "USB Connectors USB B Skt, TH, GF, USB-B 2.0")
+	(property "Reference" "REF**"
+		(at -5.7 -7.3 0)
+		(layer "F.SilkS")
+		(uuid "c2314ad6-6b18-4501-8868-41aff2ddcfd3")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+		)
+	)
+	(property "Value" "USB1030-GF-P-B-B"
+		(at 18.906265 11.865995 0)
+		(layer "F.Fab")
+		(uuid "9a9d77b0-fbf0-45fe-92d6-ba7ecec760eb")
+		(effects
+			(font
+				(size 1.600953 1.600953)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.mouser.com/datasheet/2/837/USB1030-1948845.pdf"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ab067636-cb73-4ba6-819b-ac5bc6a25b04")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "USB Connectors USB B Skt, TH, GF, USB-B 2.0"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f72f76aa-af58-4efb-ad1a-b302e44b3c39")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Height" "10.95"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6dd0a4de-924e-4734-8798-ba02873d4f1a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer_Name" "GCT"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d7a20c7f-c122-4a6a-b07a-4da410047cd9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer_Part_Number" "USB1030-GF-P-B-B"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "079b7a55-ff7f-4420-9337-b9dc92d337a2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Mouser Part Number" "640-USB1030-GF-P-B-B"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3b00785b-bebc-4bb9-aa19-c56100700aa8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Mouser Price/Stock" "https://www.mouser.com/ProductDetail/GCT/USB1030-GF-P-B-B?qs=KUoIvG%2F9Ila4yhPpaOZhHA%3D%3D"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "158a8d81-a545-412b-bfeb-378657a3880b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Spec" "USB Connectors USB B Skt, TH, GF, USB-B 2.0"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "98dd061f-d563-423c-ab96-7cba217f342c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -6.05 -5.9)
+		(end 6.05 -5.9)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "aa78a4a3-12f2-4289-a048-9e335412d416")
+	)
+	(fp_line
+		(start -6.05 -1.778)
+		(end -6.05 -5.9)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "90ca4933-7dd2-4d6a-9acf-e1ef1fc1f4c8")
+	)
+	(fp_line
+		(start -6.05 10.3)
+		(end -6.05 2.032)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "5ea09693-5ffe-42d1-9f4b-13b8a8cbacd8")
+	)
+	(fp_line
+		(start -6.05 10.3)
+		(end 6.05 10.3)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "4b8f0622-fadf-40f3-b350-df9cac7de627")
+	)
+	(fp_line
+		(start 6.05 -1.778)
+		(end 6.05 -5.9)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "9fca1615-d893-4273-a139-ac096f523520")
+	)
+	(fp_line
+		(start 6.05 10.3)
+		(end 6.05 2.032)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "345d098b-0269-4f89-a59c-f7a674efa2a4")
+	)
+	(fp_line
+		(start -0.5 0)
+		(end 0.5 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "23f89c20-5237-492b-aac0-67194e52f8de")
+	)
+	(fp_line
+		(start 0 0.5)
+		(end 0 -0.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "e5f471f2-020c-4c63-bc4c-c7beaa8e685c")
+	)
+	(fp_line
+		(start -7.75 -1.8)
+		(end -6.3 -1.8)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "12107fd4-b460-4a03-899f-d8fbae3c2804")
+	)
+	(fp_line
+		(start -7.75 1.9)
+		(end -7.75 -1.8)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "f3a86963-c55a-4c7c-bf85-242aefb5ac91")
+	)
+	(fp_line
+		(start -7.75 1.9)
+		(end -6.3 1.9)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "1050a15a-776a-486c-8106-6ca9443d50c1")
+	)
+	(fp_line
+		(start -6.3 -6.15)
+		(end 6.3 -6.15)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "59d36a9c-cb98-485e-9d97-358027b183a6")
+	)
+	(fp_line
+		(start -6.3 -1.8)
+		(end -6.3 -6.15)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "25bef404-e3ca-4ffc-bf74-d3a4c2cbd74e")
+	)
+	(fp_line
+		(start -6.3 10.55)
+		(end -6.3 1.9)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "485a8791-0a26-4497-9132-e9057eb8b513")
+	)
+	(fp_line
+		(start -6.3 10.55)
+		(end 6.3 10.55)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "4586b509-84ec-4856-b8e3-692ea899c636")
+	)
+	(fp_line
+		(start 6.3 -1.75)
+		(end 6.3 -6.15)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "be054c15-f9af-4770-a8a3-6aabd3b1235f")
+	)
+	(fp_line
+		(start 6.3 -1.75)
+		(end 7.7 -1.75)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "7b742c06-b56e-46fa-8351-cd8cc1a92a33")
+	)
+	(fp_line
+		(start 6.3 1.7)
+		(end 7.7 1.7)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "70c41474-5e45-4b6a-8621-978090185cb1")
+	)
+	(fp_line
+		(start 6.3 10.55)
+		(end 6.3 1.7)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "41912ae7-1edf-4281-9088-f7aff6e7fa0d")
+	)
+	(fp_line
+		(start 7.7 1.7)
+		(end 7.7 -1.75)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "ee9770ca-b366-40d6-a11d-583bb0834cf4")
+	)
+	(pad "1" thru_hole circle
+		(at 1.25 -4.71)
+		(size 1.5 1.5)
+		(drill 0.92)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "01d85772-7df7-4186-a240-3af42769fc0d")
+	)
+	(pad "2" thru_hole circle
+		(at -1.25 -4.71)
+		(size 1.5 1.5)
+		(drill 0.92)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "1ed71e2c-c244-4dbb-bbb6-9becda1dfa47")
+	)
+	(pad "3" thru_hole circle
+		(at -1.25 -2.71)
+		(size 1.5 1.5)
+		(drill 0.92)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "33f069c5-8475-4f90-a326-0ff230342f63")
+	)
+	(pad "4" thru_hole circle
+		(at 1.25 -2.71)
+		(size 1.5 1.5)
+		(drill 0.92)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "c39ae7a8-a4d5-468a-a76c-fa13f6f1f141")
+	)
+	(pad "5" thru_hole circle
+		(at -6.02 0)
+		(size 2.9 2.9)
+		(drill 2.3)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "fb466397-e301-4830-bfe0-02ceb0a0d9e8")
+	)
+	(pad "6" thru_hole circle
+		(at 6.02 0)
+		(size 2.9 2.9)
+		(drill 2.3)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "90d29039-dd87-4e99-bc62-e45af21b4fb5")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/Libraries/3D/USB1030-GF-P-B-B.stp"
+		(offset
+			(xyz 0.65 -10 4)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -0)
+		)
+	)
+)

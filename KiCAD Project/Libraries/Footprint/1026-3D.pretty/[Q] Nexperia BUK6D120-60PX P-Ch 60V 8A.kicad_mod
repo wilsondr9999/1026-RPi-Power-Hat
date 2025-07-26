@@ -1,0 +1,320 @@
+(footprint "[Q] Nexperia BUK6D120-60PX P-Ch 60V 8A"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "P-Channel MOSFET 60V 8A")
+	(tags "P-Channel MOSFET 60V 8A")
+	(property "Reference" "REF**"
+		(at -2 -0.5 270)
+		(layer "F.SilkS")
+		(uuid "b5a4ba54-9f49-49da-a31b-5bc8520ccf1c")
+		(effects
+			(font
+				(size 0.762 0.762)
+				(thickness 0.1905)
+				(bold yes)
+			)
+		)
+	)
+	(property "Value" "BUK6D120-60PX"
+		(at 0.35 0 180)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "fe73b39b-e58e-48f1-8bce-2344bff5a2e2")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.mouser.com/datasheet/2/916/BUK6D120_60P-1539811.pdf"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f73ab922-fa7f-42ad-9b49-edc30c09c842")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Rev Power Prot MOSFET"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c629ecfc-4cc0-4cbd-a543-fb8eac5dc161")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Height" "0.65"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6507f0e5-be49-4292-af93-e514f30f589a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer_Name" "Nexperia"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ea3925e3-7c73-4b7d-8986-e51c817e3357")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer_Part_Number" "BUK6D120-60PX"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "31b497fa-a6fa-43da-b3c9-655730deea77")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Mouser Part Number" "771-BUK6D120-60PX"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "035bb288-fbbb-4822-ad91-73bf76bbde0a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Mouser Price/Stock" "https://www.mouser.com/ProductDetail/Nexperia/BUK6D120-60PX?qs=F5EMLAvA7IBtoNC2L3hOcQ%3D%3D"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1a67764d-d4eb-4d30-8fed-387e62b6c681")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Spec" "P-Ch 60V 8A"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e6d0f4f9-a403-4257-984c-d11a1515d9cb")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start 1.25 1.55)
+		(end 1.25 1.55)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "99548f27-eddd-45ca-91f1-f1af4b5a5e4c")
+	)
+	(fp_arc
+		(start 1.25 1.45)
+		(mid 1.3 1.5)
+		(end 1.25 1.55)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a0056047-e5b3-43af-bb2e-26b48568eac9")
+	)
+	(fp_arc
+		(start 1.25 1.55)
+		(mid 1.2 1.5)
+		(end 1.25 1.45)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "408a9123-e08b-4614-99c8-51b9ebc0af62")
+	)
+	(fp_line
+		(start -1.5 -1.5)
+		(end 1.5 -1.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "33504e2b-b16f-405b-bc16-66108fbd1e91")
+	)
+	(fp_line
+		(start -1.5 1.5)
+		(end -1.5 -1.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "0d8e33ba-b4f0-451f-b4e4-a5e7020ffdb6")
+	)
+	(fp_line
+		(start 1.5 -1.5)
+		(end 1.5 1.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "b80304c0-696e-441d-ac93-f781cc6453bf")
+	)
+	(fp_line
+		(start 1.5 1.5)
+		(end -1.5 1.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "46cc5811-bca2-4c12-870a-527d5dcee578")
+	)
+	(fp_line
+		(start -1 -1)
+		(end -1 1)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "0307e4d5-bd2c-4281-8f80-9e3575b55441")
+	)
+	(fp_line
+		(start -1 1)
+		(end 1 1)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "3ac811ca-f4c2-4959-81c8-cad2d7ccd32c")
+	)
+	(fp_line
+		(start 1 -1)
+		(end -1 -1)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "01866f22-d2f4-47bc-98b9-1ae22e923b76")
+	)
+	(fp_line
+		(start 1 1)
+		(end 1 -1)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "76f722fb-b5d1-4677-9c6d-550ac99d83af")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0.35 0 180)
+		(layer "F.Fab")
+		(uuid "8e9fd3e9-4f9f-4414-b294-483f74f839ce")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at 0.935 0.65 90)
+		(size 0.35 0.43)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "7a6d9ca8-ddc7-402f-a8e0-41464b9fcaea")
+	)
+	(pad "2" smd rect
+		(at 0.935 0 90)
+		(size 0.35 0.43)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "6f8aa23a-406e-4e5c-88d3-9c1b3743e14e")
+	)
+	(pad "3" smd rect
+		(at 0.935 -0.65 90)
+		(size 0.35 0.43)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "80f76a4e-2d53-4054-b428-36fab4676001")
+	)
+	(pad "4" smd rect
+		(at -0.935 -0.65 90)
+		(size 0.35 0.43)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "216e96b5-876c-4890-8793-051bfb920d4f")
+	)
+	(pad "5" smd rect
+		(at -0.935 0 90)
+		(size 0.35 0.43)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "90e2695e-731b-4114-a540-c85ddd8a800a")
+	)
+	(pad "6" smd rect
+		(at -0.935 0.65 90)
+		(size 0.35 0.43)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "e7f09671-0c36-4f82-bba7-9365a08211f0")
+	)
+	(pad "7" smd rect
+		(at 0 0.285)
+		(size 1.1 1.25)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "59c3cf87-a59b-4030-8108-ec0f7db36e90")
+	)
+	(pad "8" smd rect
+		(at 0 -0.775 90)
+		(size 0.35 0.66)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "54892f21-7924-4227-98d3-3f314f864d5c")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/Libraries/3D/BUK6D120-60PX.stp"
+		(offset
+			(xyz 1.49 -0.87 1.16)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 90 0 -90)
+		)
+	)
+)

@@ -1,0 +1,330 @@
+(footprint "[U] ST Micro USB ESD Protection USBLC6-2P6"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "ESD Suppressors / TVS Diodes High Speed Interface Protection Low Cap")
+	(tags "ESD Suppressors / TVS Diodes High Speed Interface Protection Low Cap")
+	(property "Reference" "REF**"
+		(at 0 -2.5 180)
+		(layer "F.SilkS")
+		(uuid "4bbd7ae6-805c-4848-831a-3e14c9e1e922")
+		(effects
+			(font
+				(size 0.762 0.762)
+				(thickness 0.1905)
+				(bold yes)
+			)
+		)
+	)
+	(property "Value" "USBLC6-2P6"
+		(at 0 3.749999 180)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "dec60d69-224e-4014-b816-260921c2f881")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.mouser.com/datasheet/2/389/usblc6_2-1852789.pdf"
+		(at 0 9.499999 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ee4b08c4-05e5-40c9-9cb8-4b208d99bc82")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "ESD Suppressors / TVS Diodes High Speed Interface Protection Low Cap"
+		(at 0 7.5 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a4336edf-aa1a-4217-b545-c5e625e008c9")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Height" "0.6"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5a364af2-56db-40db-abe2-9bb81b28da08")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer_Name" "STMicroelectronics"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "57df1a1b-380e-4a9d-a805-90fdb818af3a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer_Part_Number" "USBLC6-2P6"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c5ec9835-e8d4-453f-a8e8-91ee62e8431e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Mouser Part Number" "511-USBLC6-2P6"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a3fe1694-a1d8-498d-97c7-73bec852a1c6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Mouser Product/Spec" "https://www.mouser.com/ProductDetail/STMicroelectronics/USBLC6-2P6?qs=6ARB0lp6jlViGcbUSvj1Mw%3D%3D"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "47545642-27ee-4006-8b33-641656f1fc03")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Spec" "USBLC6-2P6"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "166a5801-8cee-4f6c-bdb7-85c3380e9222")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Mouser Price/Stock" "https://www.mouser.com/ProductDetail/STMicroelectronics/USBLC6-2P6?qs=6ARB0lp6jlViGcbUSvj1Mw%3D%3D"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3ec0c3b9-2f95-44b8-af94-dfa324678056")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -0.6 1.6)
+		(end -0.6 1.6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "0bf0d08c-c31c-41b9-9a87-20189a98d190")
+	)
+	(fp_line
+		(start -0.5 1.6)
+		(end -0.5 1.6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "2a2dfaa8-e891-4713-bec9-db741911b740")
+	)
+	(fp_arc
+		(start -0.6 1.6)
+		(mid -0.55 1.55)
+		(end -0.5 1.6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "db90b47a-7a8f-4964-8c59-24a58fd77509")
+	)
+	(fp_arc
+		(start -0.5 1.6)
+		(mid -0.55 1.65)
+		(end -0.6 1.6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "1870ddc3-4d34-4bf3-96e2-b23259e36119")
+	)
+	(fp_line
+		(start -1.25 -1.749999)
+		(end 1.25 -1.749999)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "b9699aaf-e333-4e65-bfda-f69e08ee8aa1")
+	)
+	(fp_line
+		(start -1.25 2)
+		(end -1.25 -1.749999)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "1868330b-ffb6-4b82-8937-f77b8c851e67")
+	)
+	(fp_line
+		(start 1.25 -1.749999)
+		(end 1.25 2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "9816d796-a886-4f58-9a4c-b61ff4f1c220")
+	)
+	(fp_line
+		(start 1.25 2)
+		(end -1.25 2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "a7d442db-a5e6-485d-8912-1cc3adcd9ea6")
+	)
+	(fp_line
+		(start -0.799999 -0.6)
+		(end 0.799999 -0.6)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "38b864aa-e54d-407f-ae1b-7427ef3f5c30")
+	)
+	(fp_line
+		(start -0.799999 0.6)
+		(end -0.799999 -0.6)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "41faeecf-3515-4b15-bffc-2a00b60a8d9a")
+	)
+	(fp_line
+		(start 0.799999 -0.6)
+		(end 0.799999 0.6)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "b026f6fb-0648-419f-82ab-354945aae8fc")
+	)
+	(fp_line
+		(start 0.799999 0.6)
+		(end -0.799999 0.6)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "4f5c943f-0589-48df-9cd1-14db690e7c8f")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 5.5 180)
+		(layer "F.Fab")
+		(uuid "aa5735de-5645-4a59-a46b-d3ca433e6f8d")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -0.499999 0.805)
+		(size 0.3 0.99)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "1dd89fcf-affe-4df2-ac25-707e8c6eac31")
+	)
+	(pad "2" smd rect
+		(at 0 0.805)
+		(size 0.3 0.99)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "dc5d3f1d-f90c-4007-82bd-636c2372e476")
+	)
+	(pad "3" smd rect
+		(at 0.499999 0.805)
+		(size 0.3 0.99)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "20cd9f6a-d58d-4e66-98cd-66d15660ae7a")
+	)
+	(pad "4" smd rect
+		(at 0.499999 -0.805)
+		(size 0.3 0.99)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "1e201f71-6290-41bf-971a-2839a7e52e2e")
+	)
+	(pad "5" smd rect
+		(at 0 -0.805)
+		(size 0.3 0.99)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(clearance 0.1778)
+		(uuid "2fb9cb3c-20b2-44fb-9e4e-8f941e0fce50")
+	)
+	(pad "6" smd rect
+		(at -0.499999 -0.805)
+		(size 0.3 0.99)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "badd1f35-08ef-4751-a77d-a9df8ebb757f")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/Libraries/3D/USBLC6-2P6.stp"
+		(offset
+			(xyz 0 0 0.2300000007)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 0)
+		)
+	)
+)

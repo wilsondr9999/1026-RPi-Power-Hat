@@ -1,0 +1,260 @@
+(footprint "[FB] Murata BLM18KG221SN1D 220ohm 2.2A"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "BLM18 Series EMI Suppression Filter 220+/-25% at 100MHz 2.2A @85")
+	(tags "BLM18 Series EMI Suppression Filter 220+/-25% at 100MHz 2.2A @85")
+	(property "Reference" "REF**"
+		(at -2.7 0 0)
+		(layer "F.SilkS")
+		(uuid "e732a21e-e77b-4eed-af16-089d4e1b3fc8")
+		(effects
+			(font
+				(size 0.762 0.762)
+				(thickness 0.1778)
+				(bold yes)
+			)
+		)
+	)
+	(property "Value" "BLM18KG221SN1D"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "9efacd9d-37fd-4f0b-9e03-7504dba78e10")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.mouser.com/datasheet/2/281/ENFA0003-1915778.pdf"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7c9b0e39-366d-4142-a950-2267b73efea0")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "BLM18 Series EMI Suppression Filter 220+/-25% at 100MHz 2.2A @85"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "72a269ea-08a8-49f9-867f-7d500fc316cb")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Height" "0.55"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "16ad5467-d147-4618-9f82-036d9d559373")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Mouser Part Number" "81-BLM18KG221SN1D"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b082a266-202c-4cdd-94b9-69c066646bdf")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Mouser Price/Stock" "https://www.mouser.com/ProductDetail/Murata-Electronics/BLM18KG221SN1D?qs=sGAEpiMZZMt1hubY80%2Fs8NG1wYLooWOYKm5VhW8T2xQ%3D"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f4425265-ccb3-41fd-a354-10b90f5d148b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer_Name" "Murata Electronics"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9a89e454-6ba0-469c-96bf-e5f42f630025")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer_Part_Number" "BLM18KG221SN1D"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f0ff8f46-a00c-4a51-b7e9-460595cb641d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Spec" "220ohm 2.2A"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "cbff6d20-7840-4c41-937a-25b0dc1924d8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start 0 -0.3)
+		(end 0 0.3)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "df1b3967-bd9a-4fad-bef5-6f13320bd8ed")
+	)
+	(fp_line
+		(start -1.475 -0.75)
+		(end 1.475 -0.75)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "7eef34e2-7a5d-4849-bee0-883418283524")
+	)
+	(fp_line
+		(start -1.475 0.75)
+		(end -1.475 -0.75)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "623cbf43-fbcf-4d08-a0e3-5e0cfe670bc4")
+	)
+	(fp_line
+		(start 1.475 -0.75)
+		(end 1.475 0.75)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "bd10760b-261d-4150-b1d0-70e937b72def")
+	)
+	(fp_line
+		(start 1.475 0.75)
+		(end -1.475 0.75)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "8783e9ec-bfe3-40ae-ab7a-f925ff4a763f")
+	)
+	(fp_line
+		(start -0.8 -0.4)
+		(end 0.8 -0.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "cc0a26d5-c254-4938-8f59-265195816f41")
+	)
+	(fp_line
+		(start -0.8 0.4)
+		(end -0.8 -0.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "9c996b40-7112-4f87-842e-e0d10fe9f878")
+	)
+	(fp_line
+		(start 0.8 -0.4)
+		(end 0.8 0.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "45b40930-93f8-4d16-9494-3d728bc1e417")
+	)
+	(fp_line
+		(start 0.8 0.4)
+		(end -0.8 0.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "2714347d-8adc-43e9-b253-1d2e6622f452")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 1.9 0)
+		(layer "F.Fab")
+		(uuid "a498c341-a918-4942-be38-45d455b8688c")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -0.675 0)
+		(size 0.65 0.7)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "1ad8f2f8-c713-4cd4-8591-a9e2f9311c27")
+	)
+	(pad "2" smd rect
+		(at 0.675 0)
+		(size 0.65 0.7)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "b79a5a23-6834-4e27-ae62-4060c55ffe11")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/Libraries/3D/BLM18KG221SN1D.stp"
+		(offset
+			(xyz 0 0 0.4)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

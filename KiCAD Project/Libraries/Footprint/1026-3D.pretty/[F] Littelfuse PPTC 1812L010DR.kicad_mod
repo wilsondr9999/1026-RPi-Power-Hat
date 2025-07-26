@@ -1,0 +1,312 @@
+(footprint "[F] Littelfuse PPTC 1812L010DR"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Resettable POLYFUSE 20A 33V Littelfuse 1.1A Surface Mount Resettable Fuse, 33 V dc")
+	(tags "Resettable POLYFUSE 20A 33V Littelfuse 1.1A Surface Mount Resettable Fuse, 33 V dc")
+	(property "Reference" "REF**"
+		(at -2.5 2.5 0)
+		(layer "F.SilkS")
+		(uuid "87709b8a-fe9e-45b0-a375-6fc5eb55f620")
+		(effects
+			(font
+				(size 0.762 0.762)
+				(thickness 0.1905)
+				(bold yes)
+			)
+		)
+	)
+	(property "Value" "1812L110/33MR"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "bcb1b06e-a9c0-46d6-a8f2-b60a40a995f3")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.littelfuse.com/assetdocs/resettable-ptcs-1812l-datasheet?assetguid=ca5c80cb-504e-4a8a-8e74-0107520a1717"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ad8011ba-a44c-42ff-bf40-d797fc91a773")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Input PPTC Resettable Fuse"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b1180ebd-94b3-4c9b-a32d-9559fa1037f1")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Height" "1.25"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d6d6bcff-1f04-48e7-89e8-bf645ce71b68")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Mouser Part Number" "576-1812L110/33MR"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c5120f1e-6345-460e-903b-a9251124346a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Mouser Price/Stock" "https://www.mouser.com/ProductDetail/Littelfuse/1812L110-33MR?qs=PWhpLWeW8wdL8%252Bas2HFkoA%3D%3D"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f580764a-faee-412a-93d9-268c36b34110")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer_Name" "LITTELFUSE"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ee8334f0-fbe0-41c5-a49d-d8e22aef33a9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer_Part_Number" "1812L110/33MR"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0deae2e5-8733-4924-a811-301af884c41a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Spec" "1.1A 33V"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "98d81869-9b5a-49dd-87ad-cd20b53fe96e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -4 -0.1)
+		(end -4 -0.1)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "5b795c8e-63a3-460b-99c2-ab2a50677c12")
+	)
+	(fp_line
+		(start -4 0.1)
+		(end -4 0.1)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "4f58d22a-5876-4554-9477-d14789aab899")
+	)
+	(fp_line
+		(start -1.5 -1.62)
+		(end 1.5 -1.62)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "794bbbee-563b-4c4f-b4ca-aa60a3cb8d8e")
+	)
+	(fp_line
+		(start -1.5 1.62)
+		(end 1.5 1.62)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "7ece9d2b-0c8b-4b97-ba1a-c3526c0f502a")
+	)
+	(fp_arc
+		(start -4 -0.1)
+		(mid -3.9 0)
+		(end -4 0.1)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "1f452ca1-1788-4300-a8df-2b05f8145338")
+	)
+	(fp_arc
+		(start -4 0.1)
+		(mid -4.1 0)
+		(end -4 -0.1)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "67ca00a8-b3fc-482e-b755-df9e09bb5590")
+	)
+	(fp_line
+		(start -4.3 -2)
+		(end 3.8 -2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "f18791d6-aaac-4128-82c2-f5aad99155a3")
+	)
+	(fp_line
+		(start -4.3 2)
+		(end -4.3 -2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "b09cd8cf-75c2-4a5d-88f4-1796e841dce8")
+	)
+	(fp_line
+		(start 3.8 -2)
+		(end 3.8 2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "6d25619d-5c87-4f13-a64f-f87b85bff671")
+	)
+	(fp_line
+		(start 3.8 2)
+		(end -4.3 2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "572bfe23-2294-40ff-a296-6782d62d846d")
+	)
+	(fp_line
+		(start -2.275 -1.62)
+		(end 2.275 -1.62)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "70bb822a-57e9-47b2-af6d-69c33a717e45")
+	)
+	(fp_line
+		(start -2.275 1.62)
+		(end -2.275 -1.62)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "eb5f1d14-a53c-4e62-9227-1d6867b519cc")
+	)
+	(fp_line
+		(start 2.275 -1.62)
+		(end 2.275 1.62)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "b13ebde3-8b0e-469c-930b-5e70e444405b")
+	)
+	(fp_line
+		(start 2.275 1.62)
+		(end -2.275 1.62)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "eed85c74-2be8-4f64-ab22-aa580c42a386")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 3.9 0)
+		(layer "F.Fab")
+		(uuid "e12f4cd2-63b2-4d44-96f2-7bfc0b991672")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -2.615 0)
+		(size 1.78 3.15)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "aeac3014-1ca5-4f1e-a807-3eb7a775bb47")
+	)
+	(pad "2" smd rect
+		(at 2.615 0)
+		(size 1.78 3.15)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "02a15dba-e2c0-4c2e-a529-99fa1d77d4c9")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/Libraries/3D/1812L110_33MR.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

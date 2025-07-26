@@ -1,0 +1,212 @@
+(footprint "[Fan] SameSky CFM-2510B-070-140"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "DC Fans dc axial fan, 25 mm square, 10 mm, 5 Vdc, omniCOOL, 5000 RPM, 1.35 CFM")
+	(tags "DC Fans dc axial fan, 25 mm square, 10 mm, 5 Vdc, omniCOOL, 5000 RPM, 1.35 CFM")
+	(property "Reference" "REF**"
+		(at 13.6 11.4 90)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "a63dadba-30b9-4384-8d37-f6c801e1a643")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+		)
+	)
+	(property "Value" "CFM-2510B-070-140"
+		(at 0 16 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "3e30cf5b-ff60-4472-86d0-43142068bf58")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.sameskydevices.com/product/resource/cfm-25b.pdf"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "06c80fb7-c754-4cf0-b348-d09f4e0c868a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "DC Fans dc axial fan, 25 mm square, 10 mm, 5 Vdc, omniCOOL, 5000 RPM, 1.35 CFM"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "bf5160ee-fb98-49e8-b4dc-191f622ec179")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Height" "10"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b2adab99-e934-417c-b874-95c903a282fd")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer_Name" "Same Sky"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ad1af794-0925-4902-8c05-31eb52194d29")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer_Part_Number" "CFM-2510B-070-140"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "738da5c6-7c80-46d4-a015-a6942d59498d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Mouser Part Number" "490-CFM2510B-070-140"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "03f265cf-096c-490c-bcd9-e0c0e0d5f810")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Mouser Price/Stock" "https://www.mouser.com/ProductDetail/Same-Sky/CFM-2510B-070-140?qs=GedFDFLaBXHD1VXBjs5CMA%3D%3D"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2faec4d2-fdd6-4fa3-a121-ae9dbacc164d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Spec" "5V 7000RPM 25mm"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7d1a2351-eaa8-4426-bb6c-6190800e3dbd")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_rect
+		(start -12.5 -12.5)
+		(end 12.5 12.5)
+		(stroke
+			(width 0.25)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "05a98193-599b-4b2d-a2e6-d3491e514b5f")
+	)
+	(fp_circle
+		(center 10 10)
+		(end 11 10)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "48dfd318-8361-4349-a727-f12b4218701e")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 17.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "22aaba4d-b731-4ba8-bf3e-8d99b7733805")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "" np_thru_hole circle
+		(at -10 -10)
+		(size 3.1 3.1)
+		(drill 2.9)
+		(layers "*.Mask")
+		(uuid "b2db2ed2-2748-4718-a4f9-c7b510c7eddd")
+	)
+	(pad "" np_thru_hole circle
+		(at -10 10)
+		(size 3.1 3.1)
+		(drill 2.9)
+		(layers "*.Mask")
+		(uuid "909ea40b-09f1-4bdb-b658-0bc49ffdb4ef")
+	)
+	(pad "" np_thru_hole circle
+		(at 0 0)
+		(size 24.2 24.2)
+		(drill 24)
+		(layers "*.Mask")
+		(uuid "2fd40aff-7468-4b2c-b20e-aecfb2b578e9")
+	)
+	(pad "" np_thru_hole circle
+		(at 10 -10)
+		(size 3.1 3.1)
+		(drill 2.9)
+		(layers "*.Mask")
+		(uuid "755fc721-aad6-4ca3-9ed4-ac10b6268534")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/Libraries/3D/Same_Sky_CFM-2510B-070-140.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 90 -0 180)
+		)
+	)
+)

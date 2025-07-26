@@ -1,6 +1,6 @@
 {
   "board": {
-    "active_layer": 0,
+    "active_layer": 5,
     "active_layer_preset": "",
     "auto_track_width": true,
     "hidden_netclasses": [],
@@ -120,18 +120,6 @@
   "project": {
     "files": [
       {
-        "name": "1026 RPi Power Hat.kicad_sch",
-        "open": false,
-        "window": {
-          "display": 0,
-          "maximized": true,
-          "pos_x": -8,
-          "pos_y": -8,
-          "size_x": 2576,
-          "size_y": 1408
-        }
-      },
-      {
         "name": "1026 RPi Power Hat.kicad_pcb",
         "open": false,
         "window": {
@@ -139,8 +127,20 @@
           "maximized": true,
           "pos_x": -8,
           "pos_y": -8,
-          "size_x": 2576,
-          "size_y": 1408
+          "size_x": 3856,
+          "size_y": 2128
+        }
+      },
+      {
+        "name": "1026 RPi Power Hat.kicad_sch",
+        "open": false,
+        "window": {
+          "display": 0,
+          "maximized": true,
+          "pos_x": -8,
+          "pos_y": -8,
+          "size_x": 3856,
+          "size_y": 2128
         }
       }
     ]
