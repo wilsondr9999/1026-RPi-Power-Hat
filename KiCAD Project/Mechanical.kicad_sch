@@ -1010,7 +1010,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "DW_Mechanical:OSHW_Logo"
+		(property "Footprint" "1026-3D:OSHW_Logo"
 			(at 165.1 101.6 0)
 			(effects
 				(font
@@ -1202,7 +1202,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "DW_Mechanical:OSHW_Logo"
+		(property "Footprint" "1026-3D:OSHW_Logo"
 			(at 165.1 91.44 0)
 			(effects
 				(font
